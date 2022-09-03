@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.0'
+
+target 'DeclarativeCollectionViewExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DeclarativeCollectionViewExample
+
+  target 'DeclarativeCollectionViewExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'EasyTipView', '~> 2.1'
+    pod 'ActiveLabel'
+    pod 'SwiftyMarkdown'
+    pod 'Cosmos', '~> 23.0'
+  end
+
+  target 'DeclarativeCollectionViewExampleUITests' do
+    # Pods for testing
+  end
+
+end
