@@ -16,6 +16,9 @@
 		DED115FD28C3A971000D530F /* DeclarativeCollectionViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED115FC28C3A971000D530F /* DeclarativeCollectionViewExampleTests.swift */; };
 		DED1160728C3A971000D530F /* DeclarativeCollectionViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1160628C3A971000D530F /* DeclarativeCollectionViewExampleUITests.swift */; };
 		DED1160928C3A971000D530F /* DeclarativeCollectionViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1160828C3A971000D530F /* DeclarativeCollectionViewExampleUITestsLaunchTests.swift */; };
+		DED1161728C3A9CF000D530F /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = DED1161628C3A9CF000D530F /* Hero */; };
+		DED1161A28C3AA08000D530F /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DED1161928C3AA08000D530F /* SDWebImage */; };
+		DED1161D28C3AA22000D530F /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = DED1161C28C3AA22000D530F /* SkeletonView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED1161A28C3AA08000D530F /* SDWebImage in Frameworks */,
+				DED1161D28C3AA22000D530F /* SkeletonView in Frameworks */,
+				DED1161728C3A9CF000D530F /* Hero in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +149,11 @@
 			dependencies = (
 			);
 			name = DeclarativeCollectionViewExample;
+			packageProductDependencies = (
+				DED1161628C3A9CF000D530F /* Hero */,
+				DED1161928C3AA08000D530F /* SDWebImage */,
+				DED1161C28C3AA22000D530F /* SkeletonView */,
+			);
 			productName = DeclarativeCollectionViewExample;
 			productReference = DED115E228C3A970000D530F /* DeclarativeCollectionViewExample.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,11 @@
 				Base,
 			);
 			mainGroup = DED115D928C3A970000D530F;
+			packageReferences = (
+				DED1161528C3A9CF000D530F /* XCRemoteSwiftPackageReference "Hero" */,
+				DED1161828C3AA08000D530F /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				DED1161B28C3AA22000D530F /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = DED115E328C3A970000D530F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +618,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DED1161528C3A9CF000D530F /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		DED1161828C3AA08000D530F /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DED1161B28C3AA22000D530F /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DED1161628C3A9CF000D530F /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DED1161528C3A9CF000D530F /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		DED1161928C3AA08000D530F /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DED1161828C3AA08000D530F /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		DED1161C28C3AA22000D530F /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DED1161B28C3AA22000D530F /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DED115DA28C3A970000D530F /* Project object */;
 }
