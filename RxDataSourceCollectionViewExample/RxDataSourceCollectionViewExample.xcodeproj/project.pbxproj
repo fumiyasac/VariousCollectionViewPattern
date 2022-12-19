@@ -18,7 +18,6 @@
 		DED1164228C3AE59000D530F /* RxDataSourceCollectionViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1164128C3AE59000D530F /* RxDataSourceCollectionViewExampleTests.swift */; };
 		DED1164C28C3AE5A000D530F /* RxDataSourceCollectionViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1164B28C3AE5A000D530F /* RxDataSourceCollectionViewExampleUITests.swift */; };
 		DED1164E28C3AE5A000D530F /* RxDataSourceCollectionViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1164D28C3AE5A000D530F /* RxDataSourceCollectionViewExampleUITestsLaunchTests.swift */; };
-		DED1165C28C3AF62000D530F /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = DED1165B28C3AF62000D530F /* Hero */; };
 		DED1166228C3AFFC000D530F /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = DED1166128C3AFFC000D530F /* SkeletonView */; };
 		DED1166528C3B02A000D530F /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DED1166428C3B02A000D530F /* SDWebImage */; };
 		E57307B46E2678318DE10B52 /* Pods_RxDataSourceCollectionViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF201A027C499598FC8E7413 /* Pods_RxDataSourceCollectionViewExample.framework */; };
@@ -73,7 +72,6 @@
 			files = (
 				DED1166528C3B02A000D530F /* SDWebImage in Frameworks */,
 				DED1166228C3AFFC000D530F /* SkeletonView in Frameworks */,
-				DED1165C28C3AF62000D530F /* Hero in Frameworks */,
 				E57307B46E2678318DE10B52 /* Pods_RxDataSourceCollectionViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +168,6 @@
 				A3ABBAB0705CE0F9F0B2F276 /* Pods-RxDataSourceCollectionViewExampleTests.debug.xcconfig */,
 				951FEF22A67636CE95FB8F92 /* Pods-RxDataSourceCollectionViewExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -193,7 +190,6 @@
 			);
 			name = RxDataSourceCollectionViewExample;
 			packageProductDependencies = (
-				DED1165B28C3AF62000D530F /* Hero */,
 				DED1166128C3AFFC000D530F /* SkeletonView */,
 				DED1166428C3B02A000D530F /* SDWebImage */,
 			);
@@ -273,7 +269,6 @@
 			);
 			mainGroup = DED1161E28C3AE58000D530F;
 			packageReferences = (
-				DED1165A28C3AF62000D530F /* XCRemoteSwiftPackageReference "Hero" */,
 				DED1166028C3AFFC000D530F /* XCRemoteSwiftPackageReference "SkeletonView" */,
 				DED1166328C3B02A000D530F /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
@@ -609,8 +604,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,8 +633,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -775,14 +770,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DED1165A28C3AF62000D530F /* XCRemoteSwiftPackageReference "Hero" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/HeroTransitions/Hero";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.6.0;
-			};
-		};
 		DED1166028C3AFFC000D530F /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Juanpe/SkeletonView";
@@ -802,11 +789,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DED1165B28C3AF62000D530F /* Hero */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DED1165A28C3AF62000D530F /* XCRemoteSwiftPackageReference "Hero" */;
-			productName = Hero;
-		};
 		DED1166128C3AFFC000D530F /* SkeletonView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DED1166028C3AFFC000D530F /* XCRemoteSwiftPackageReference "SkeletonView" */;

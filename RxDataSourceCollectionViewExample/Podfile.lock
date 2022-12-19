@@ -2,27 +2,23 @@ PODS:
   - ActiveLabel (1.1.0)
   - Cosmos (23.0.0)
   - EasyTipView (2.1.0)
-  - SwiftyMarkdown (1.2.4)
 
 DEPENDENCIES:
   - ActiveLabel
   - Cosmos (~> 23.0)
   - EasyTipView (~> 2.1)
-  - SwiftyMarkdown
 
 SPEC REPOS:
   trunk:
     - ActiveLabel
     - Cosmos
     - EasyTipView
-    - SwiftyMarkdown
 
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
   Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   EasyTipView: a92b6edc377b81c5ac18e9fd35d5ee78e9409488
-  SwiftyMarkdown: 7cdec87c6ab5cd9ea0e22ced288e889960649ba5
 
-PODFILE CHECKSUM: 46b00cf0bcc7c4015f4d61eaa512c339368ac191
+PODFILE CHECKSUM: 1dd519f63e5ee6353b80b1a92113745dd4fea999
 
 COCOAPODS: 1.11.3

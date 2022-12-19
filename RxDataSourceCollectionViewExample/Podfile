@@ -8,7 +8,6 @@ target 'RxDataSourceCollectionViewExample' do
   # Pods for RxDataSourceCollectionViewExample
   pod 'EasyTipView', '~> 2.1'
   pod 'ActiveLabel'
-  pod 'SwiftyMarkdown'
   pod 'Cosmos', '~> 23.0'
 
   target 'RxDataSourceCollectionViewExampleTests' do
