@@ -24,3 +24,6 @@ DerivedData
 # CocoaPod
 /DeclarativeCollectionViewExample/Pods/*
 /RxDataSourceCollectionViewExample/Pods/*
+
+# Mock Server
+/mock_server/node_modules/*
