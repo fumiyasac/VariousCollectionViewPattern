@@ -99,13 +99,18 @@
 		DE2EC18D29C4BC8F00C52028 /* VariousCollectionViewPattern */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EC19C29C4BC9000C52028 /* Info.plist */,
 				DE2EC18E29C4BC8F00C52028 /* AppDelegate.swift */,
 				DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */,
-				DE2EC19229C4BC8F00C52028 /* ViewController.swift */,
-				DE2EC19429C4BC8F00C52028 /* Main.storyboard */,
 				DE2EC19729C4BC9000C52028 /* Assets.xcassets */,
 				DE2EC19929C4BC9000C52028 /* LaunchScreen.storyboard */,
-				DE2EC19C29C4BC9000C52028 /* Info.plist */,
+				DE2EC1C529C724A000C52028 /* DependencyInjection */,
+				DE2EC1C429C7248E00C52028 /* Extension */,
+				DE2EC1C229C723EB00C52028 /* Managaer */,
+				DE2EC1C129C722A900C52028 /* Repository */,
+				DE2EC1C029C722A400C52028 /* View */,
+				DE2EC1C329C7248400C52028 /* ViewController */,
+				DE2EC1BE29C7227A00C52028 /* ViewModel */,
 			);
 			path = VariousCollectionViewPattern;
 			sourceTree = "<group>";
@@ -125,6 +130,65 @@
 				DE2EC1B129C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift */,
 			);
 			path = VariousCollectionViewPatternUITests;
+			sourceTree = "<group>";
+		};
+		DE2EC1BE29C7227A00C52028 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE2EC1C029C722A400C52028 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE2EC1C129C722A900C52028 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DE2EC1C229C723EB00C52028 /* Managaer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managaer;
+			sourceTree = "<group>";
+		};
+		DE2EC1C329C7248400C52028 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC1C629C7252E00C52028 /* MainViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DE2EC1C429C7248E00C52028 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE2EC1C529C724A000C52028 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		DE2EC1C629C7252E00C52028 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC19429C4BC8F00C52028 /* Main.storyboard */,
+				DE2EC19229C4BC8F00C52028 /* ViewController.swift */,
+			);
+			path = MainViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +509,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +538,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
