@@ -16,6 +16,10 @@
 		DE2EC1A629C4BC9100C52028 /* VariousCollectionViewPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1A529C4BC9100C52028 /* VariousCollectionViewPatternTests.swift */; };
 		DE2EC1B029C4BC9100C52028 /* VariousCollectionViewPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1AF29C4BC9100C52028 /* VariousCollectionViewPatternUITests.swift */; };
 		DE2EC1B229C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1B129C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift */; };
+		DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1C829C725C000C52028 /* AlamofireImage */; };
+		DE2EC1CC29C7270100C52028 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1CB29C7270100C52028 /* KeychainAccess */; };
+		DE2EC1CF29C7276100C52028 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1CE29C7276100C52028 /* Realm */; };
+		DE2EC1D129C7276100C52028 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1D029C7276100C52028 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2EC1D129C7276100C52028 /* RealmSwift in Frameworks */,
+				DE2EC1CF29C7276100C52028 /* Realm in Frameworks */,
+				DE2EC1CC29C7270100C52028 /* KeychainAccess in Frameworks */,
+				DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +215,12 @@
 			dependencies = (
 			);
 			name = VariousCollectionViewPattern;
+			packageProductDependencies = (
+				DE2EC1C829C725C000C52028 /* AlamofireImage */,
+				DE2EC1CB29C7270100C52028 /* KeychainAccess */,
+				DE2EC1CE29C7276100C52028 /* Realm */,
+				DE2EC1D029C7276100C52028 /* RealmSwift */,
+			);
 			productName = VariousCollectionViewPattern;
 			productReference = DE2EC18B29C4BC8F00C52028 /* VariousCollectionViewPattern.app */;
 			productType = "com.apple.product-type.application";
@@ -279,6 +293,11 @@
 				Base,
 			);
 			mainGroup = DE2EC18229C4BC8F00C52028;
+			packageReferences = (
+				DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				DE2EC1CA29C7270100C52028 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -668,6 +687,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DE2EC1CA29C7270100C52028 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE2EC1C829C725C000C52028 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		DE2EC1CB29C7270100C52028 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE2EC1CA29C7270100C52028 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		DE2EC1CE29C7276100C52028 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DE2EC1D029C7276100C52028 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE2EC18329C4BC8F00C52028 /* Project object */;
 }
