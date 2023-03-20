@@ -22,6 +22,8 @@
 		DE2EC1D129C7276100C52028 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1D029C7276100C52028 /* RealmSwift */; };
 		DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D229C8942E00C52028 /* TypeScanner.swift */; };
 		DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */; };
+		DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D729C894D900C52028 /* Dependencies.swift */; };
+		DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		DE2EC1B129C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariousCollectionViewPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE2EC1D229C8942E00C52028 /* TypeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScanner.swift; sourceTree = "<group>"; };
 		DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabelFormatter.swift; sourceTree = "<group>"; };
+		DE2EC1D729C894D900C52028 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesDefinition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,8 @@
 		DE2EC1C529C724A000C52028 /* DependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EC1D729C894D900C52028 /* Dependencies.swift */,
+				DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */,
 			);
 			path = DependencyInjection;
 			sourceTree = "<group>";
@@ -355,8 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
 				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
+				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* ViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,

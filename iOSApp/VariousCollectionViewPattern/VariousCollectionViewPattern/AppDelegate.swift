@@ -10,27 +10,38 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    // MARK: -  Function
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // MEMO: Dependency Injection用の処理を初期化する
+        if isTesting() {
+            // 注意: Test実行時はDIコンテナへの登録処理をしない
+            // → ●●●Spec内のbeforeEachではテストコードを動作させるのに必要な責務をDIコンテナへ登録
+            // → ●●●Spec内のafterEachではテストコードを動作させるのに登録した責務を削除する
+            print("Build for Unit Testing Starting...")
+        } else {
+            print("Build for Debug/Production Starting...")
+            let productionDependency = DependenciesDefinition()
+            productionDependency.inject()
+        }
         return true
     }
 
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
+        //
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+        //
     }
-
-
 }
 
+// MARK: - Global Function For Testing
+
+func isTesting() -> Bool {
+    return NSClassFromString("XCTest") != nil
+}
