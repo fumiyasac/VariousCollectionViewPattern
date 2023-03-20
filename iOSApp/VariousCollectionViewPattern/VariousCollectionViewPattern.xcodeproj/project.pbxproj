@@ -20,6 +20,8 @@
 		DE2EC1CC29C7270100C52028 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1CB29C7270100C52028 /* KeychainAccess */; };
 		DE2EC1CF29C7276100C52028 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1CE29C7276100C52028 /* Realm */; };
 		DE2EC1D129C7276100C52028 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1D029C7276100C52028 /* RealmSwift */; };
+		DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D229C8942E00C52028 /* TypeScanner.swift */; };
+		DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		DE2EC1AB29C4BC9100C52028 /* VariousCollectionViewPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariousCollectionViewPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2EC1AF29C4BC9100C52028 /* VariousCollectionViewPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariousCollectionViewPatternUITests.swift; sourceTree = "<group>"; };
 		DE2EC1B129C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariousCollectionViewPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE2EC1D229C8942E00C52028 /* TypeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScanner.swift; sourceTree = "<group>"; };
+		DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabelFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */,
 				DE2EC19729C4BC9000C52028 /* Assets.xcassets */,
 				DE2EC19929C4BC9000C52028 /* LaunchScreen.storyboard */,
+				DE2EC1D429C8943C00C52028 /* Classes */,
 				DE2EC1C529C724A000C52028 /* DependencyInjection */,
 				DE2EC1C429C7248E00C52028 /* Extension */,
 				DE2EC1C229C723EB00C52028 /* Managaer */,
@@ -197,6 +202,15 @@
 				DE2EC19229C4BC8F00C52028 /* ViewController.swift */,
 			);
 			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		DE2EC1D429C8943C00C52028 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */,
+				DE2EC1D229C8942E00C52028 /* TypeScanner.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
+				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* ViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
