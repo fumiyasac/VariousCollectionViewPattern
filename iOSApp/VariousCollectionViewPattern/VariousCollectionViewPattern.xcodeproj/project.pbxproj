@@ -24,6 +24,10 @@
 		DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */; };
 		DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D729C894D900C52028 /* Dependencies.swift */; };
 		DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */; };
+		DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */; };
+		DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */; };
+		DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */; };
+		DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabelFormatter.swift; sourceTree = "<group>"; };
 		DE2EC1D729C894D900C52028 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesDefinition.swift; sourceTree = "<group>"; };
+		DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +196,10 @@
 		DE2EC1C429C7248E00C52028 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */,
+				DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */,
+				DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */,
+				DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -362,11 +374,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
+				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
 				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
 				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
+				DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */,
+				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* ViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
+				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
