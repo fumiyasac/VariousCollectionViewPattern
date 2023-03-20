@@ -30,6 +30,7 @@
 		DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */; };
 		DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E329C89B8400C52028 /* PortraitNavigationController.swift */; };
 		DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */; };
+		DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		DE2EC1E329C89B8400C52028 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 		DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowScanner.swift; sourceTree = "<group>"; };
+		DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		DE2EC1C029C722A400C52028 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */,
 				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
 				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
