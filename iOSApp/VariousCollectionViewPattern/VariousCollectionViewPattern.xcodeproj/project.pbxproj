@@ -46,6 +46,8 @@
 		DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC21429C984E100C52028 /* SettingViewController.storyboard */; };
 		DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC21629C984ED00C52028 /* SettingViewController.swift */; };
 		DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */; };
+		DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172CD29C9E7310085C7FC /* DetailItemViewController.swift */; };
+		DE3172D029C9EB4B0085C7FC /* DetailItemViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3172CF29C9EB4B0085C7FC /* DetailItemViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		DE2EC21429C984E100C52028 /* SettingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingViewController.storyboard; sourceTree = "<group>"; };
 		DE2EC21629C984ED00C52028 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarTransition.swift; sourceTree = "<group>"; };
+		DE3172CD29C9E7310085C7FC /* DetailItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewController.swift; sourceTree = "<group>"; };
+		DE3172CF29C9EB4B0085C7FC /* DetailItemViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailItemViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +329,8 @@
 		DE3172CC29C9C6EC0085C7FC /* DetailItemViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DE3172CF29C9EB4B0085C7FC /* DetailItemViewController.storyboard */,
+				DE3172CD29C9E7310085C7FC /* DetailItemViewController.swift */,
 			);
 			path = DetailItemViewController;
 			sourceTree = "<group>";
@@ -456,6 +462,7 @@
 				DE2EC19B29C4BC9000C52028 /* LaunchScreen.storyboard in Resources */,
 				DE2EC19829C4BC9000C52028 /* Assets.xcassets in Resources */,
 				DE2EC19629C4BC8F00C52028 /* MainViewController.storyboard in Resources */,
+				DE3172D029C9EB4B0085C7FC /* DetailItemViewController.storyboard in Resources */,
 				DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */,
 				DE2EC20D29C983DF00C52028 /* SearchItemViewController.storyboard in Resources */,
 				DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */,
@@ -502,6 +509,7 @@
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
+				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
