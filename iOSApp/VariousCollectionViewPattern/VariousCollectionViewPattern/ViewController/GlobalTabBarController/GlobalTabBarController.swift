@@ -12,7 +12,7 @@ final class GlobalTabBarController: UITabBarController {
     // MARK: - Enum
 
     // MEMO: BaseTabBarControllerへ配置するものに関する設定
-    private enum TabBarItemsType: CaseIterable {
+    private enum TabBarItems: CaseIterable {
 
         case main
         case search
@@ -27,11 +27,11 @@ final class GlobalTabBarController: UITabBarController {
             case .main:
                 return "ファッション集め"
             case .search:
-                return "アイテムを検索"
+                return "アイテム検索"
             case .favorite:
                 return "お気に入り"
             case .setting:
-                return "アプリに関する設定"
+                return "アプリ設定"
             }
         }
 
@@ -73,5 +73,95 @@ final class GlobalTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        setupGlobalTabBarController()
+    }
+
+    // UITabBarItemが押下された際に実行される処理
+    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+
+        // MEMO: UITabBarに配置されているUIImageView要素に対してアニメーションさせるための処理
+        // (参考) https://bit.ly/2VCP5Am
+        guard let index = tabBar.items?.firstIndex(of: item),
+            tabBar.subviews.count > index + 1,
+            let imageView = tabBar.subviews[index + 1].subviews[1] as? UIImageView else {
+            return
+        }
+        // MEMO: 抽出したUIImageView要素に対してCoreAnimationを適用する
+        imageView.layer.add(bounceAnimation, forKey: nil)
+    }
+
+    // MARK: - Private Function
+
+    // UITabBarControllerの初期設定に関する調整
+    private func setupGlobalTabBarController() {
+
+        // MEMO: UITabBarControllerDelegateの宣言
+        self.delegate = self
+
+        // MEMO: Storyboardを利用したDI処理を実施する
+        // https://qiita.com/shtnkgm/items/cad6f52c489612628fd4
+        // (1) MainViewController
+        let mainViewController = UIStoryboard(name: "MainViewController", bundle: nil)
+            .instantiateInitialViewController()!.applyNavigationController()
+        // (2) SearchItemViewController
+        let searchItemViewController = UIStoryboard(name: "SearchItemViewController", bundle: nil)
+            .instantiateInitialViewController()!.applyNavigationController()
+        // (3) FavoriteItemViewController
+        let favoriteItemViewController = UIStoryboard(name: "FavoriteItemViewController", bundle: nil)
+            .instantiateInitialViewController()!.applyNavigationController()
+        // (4) SettingViewController
+        let settingViewController = UIStoryboard(name: "SettingViewController", bundle: nil)
+            .instantiateInitialViewController()!.applyNavigationController()
+
+        // MEMO: 各画面の土台となるUINavigationControllerをセットする
+        self.viewControllers = [
+            mainViewController,
+            searchItemViewController,
+            favoriteItemViewController,
+            settingViewController
+        ]
+
+        // MEMO: タブの選択時・非選択時の色とアイコンのサイズを決める
+        // UITabBarItem用のAttributeを決める
+        let normalAttributes: [NSAttributedString.Key : Any] = [
+            NSAttributedString.Key.font: tabBarItemFont,
+            NSAttributedString.Key.foregroundColor: normalColor
+        ]
+        let selectedAttributes: [NSAttributedString.Key : Any] = [
+            NSAttributedString.Key.font: tabBarItemFont,
+            NSAttributedString.Key.foregroundColor: selectedColor
+        ]
+
+        let _ = TabBarItems.allCases.enumerated().map { (index, tabBarItem) in
+
+            // 該当ViewControllerのタイトルの設定
+            self.viewControllers?[index].title = tabBarItem.getTitle()
+            // 該当ViewControllerのUITabBar要素の設定
+            self.viewControllers?[index].tabBarItem.tag = index
+            self.viewControllers?[index].tabBarItem.setTitleTextAttributes(normalAttributes, for: [])
+            self.viewControllers?[index].tabBarItem.setTitleTextAttributes(selectedAttributes, for: .selected)
+            self.viewControllers?[index].tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0.0, vertical: 0.0)
+            self.viewControllers?[index].tabBarItem.image
+                = UIImage(
+                    systemName: tabBarItem.getSymbolName(),
+                    withConfiguration: UIImage.SymbolConfiguration(pointSize: 12, weight: .black)
+                    )!.withTintColor(normalColor, renderingMode: .alwaysOriginal)
+            self.viewControllers?[index].tabBarItem.selectedImage
+                = UIImage(
+                    systemName: tabBarItem.getSymbolName(),
+                    withConfiguration: UIImage.SymbolConfiguration(pointSize: 12, weight: .black)
+                    )!.withTintColor(selectedColor, renderingMode: .alwaysOriginal)
+        }
+    }
+}
+
+// MARK: - UITabBarControllerDelegate
+
+extension GlobalTabBarController: UITabBarControllerDelegate {
+
+    // UITabBarControllerの画面遷移が実行された場合の遷移アニメーションの定義
+    func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return globalTabBarTransition
     }
 }

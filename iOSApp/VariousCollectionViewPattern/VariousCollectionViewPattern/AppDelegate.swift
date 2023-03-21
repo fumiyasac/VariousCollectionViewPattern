@@ -61,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
 
         // MEMO: UINavigationBar背景色の装飾設定
-        navigationBarAppearance.backgroundColor = UIColor(code: "#ddcfb8")
+        navigationBarAppearance.backgroundColor = UIColor(code: "#f5b2b2")
 
         UINavigationBar.appearance().standardAppearance = navigationBarAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
