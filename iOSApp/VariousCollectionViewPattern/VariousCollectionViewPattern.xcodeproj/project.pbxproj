@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC18E29C4BC8F00C52028 /* AppDelegate.swift */; };
 		DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */; };
-		DE2EC19329C4BC8F00C52028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC19229C4BC8F00C52028 /* ViewController.swift */; };
-		DE2EC19629C4BC8F00C52028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC19429C4BC8F00C52028 /* Main.storyboard */; };
+		DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC19229C4BC8F00C52028 /* MainViewController.swift */; };
+		DE2EC19629C4BC8F00C52028 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC19429C4BC8F00C52028 /* MainViewController.storyboard */; };
 		DE2EC19829C4BC9000C52028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC19729C4BC9000C52028 /* Assets.xcassets */; };
 		DE2EC19B29C4BC9000C52028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC19929C4BC9000C52028 /* LaunchScreen.storyboard */; };
 		DE2EC1A629C4BC9100C52028 /* VariousCollectionViewPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1A529C4BC9100C52028 /* VariousCollectionViewPatternTests.swift */; };
@@ -34,6 +34,18 @@
 		DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */; };
 		DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */; };
 		DE2EC1EF29C8A3B900C52028 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1EE29C8A3B900C52028 /* Cosmos */; };
+		DE2EC1FE29C8C0A700C52028 /* SwiftyMocky in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1FD29C8C0A700C52028 /* SwiftyMocky */; };
+		DE2EC20029C8C0A700C52028 /* swiftymocky in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1FF29C8C0A700C52028 /* swiftymocky */; };
+		DE2EC20329C8C0F100C52028 /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC20229C8C0F100C52028 /* CombineExpectations */; };
+		DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */; };
+		DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC20729C9832400C52028 /* GlobalTabBarController.swift */; };
+		DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC20A29C983D500C52028 /* SearchItemViewController.swift */; };
+		DE2EC20D29C983DF00C52028 /* SearchItemViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC20C29C983DF00C52028 /* SearchItemViewController.storyboard */; };
+		DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC20F29C9842A00C52028 /* FavoriteItemViewController.storyboard */; };
+		DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC21129C9843600C52028 /* FavoriteItemViewController.swift */; };
+		DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC21429C984E100C52028 /* SettingViewController.storyboard */; };
+		DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC21629C984ED00C52028 /* SettingViewController.swift */; };
+		DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +69,8 @@
 		DE2EC18B29C4BC8F00C52028 /* VariousCollectionViewPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousCollectionViewPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2EC18E29C4BC8F00C52028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE2EC19229C4BC8F00C52028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE2EC19529C4BC8F00C52028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE2EC19229C4BC8F00C52028 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE2EC19529C4BC8F00C52028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		DE2EC19729C4BC9000C52028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2EC19A29C4BC9000C52028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2EC19C29C4BC9000C52028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +92,15 @@
 		DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
 		DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellRegistrable.swift; sourceTree = "<group>"; };
+		DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GlobalTabBarController.storyboard; sourceTree = "<group>"; };
+		DE2EC20729C9832400C52028 /* GlobalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarController.swift; sourceTree = "<group>"; };
+		DE2EC20A29C983D500C52028 /* SearchItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewController.swift; sourceTree = "<group>"; };
+		DE2EC20C29C983DF00C52028 /* SearchItemViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchItemViewController.storyboard; sourceTree = "<group>"; };
+		DE2EC20F29C9842A00C52028 /* FavoriteItemViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavoriteItemViewController.storyboard; sourceTree = "<group>"; };
+		DE2EC21129C9843600C52028 /* FavoriteItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewController.swift; sourceTree = "<group>"; };
+		DE2EC21429C984E100C52028 /* SettingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingViewController.storyboard; sourceTree = "<group>"; };
+		DE2EC21629C984ED00C52028 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2EC20029C8C0A700C52028 /* swiftymocky in Frameworks */,
+				DE2EC20329C8C0F100C52028 /* CombineExpectations in Frameworks */,
+				DE2EC1FE29C8C0A700C52028 /* SwiftyMocky in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +165,7 @@
 				DE2EC19729C4BC9000C52028 /* Assets.xcassets */,
 				DE2EC19929C4BC9000C52028 /* LaunchScreen.storyboard */,
 				DE2EC1D429C8943C00C52028 /* Classes */,
+				DE2EC21829C9871A00C52028 /* CustomTransition */,
 				DE2EC1C529C724A000C52028 /* DependencyInjection */,
 				DE2EC1C429C7248E00C52028 /* Extension */,
 				DE2EC1C229C723EB00C52028 /* Managaer */,
@@ -201,6 +226,10 @@
 		DE2EC1C329C7248400C52028 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EC21329C984C900C52028 /* SettingViewController */,
+				DE2EC20E29C9841C00C52028 /* FavoriteItemViewController */,
+				DE2EC20929C983AC00C52028 /* SearchItemViewController */,
+				DE2EC20429C9828E00C52028 /* GlobalTabBarController */,
 				DE2EC1C629C7252E00C52028 /* MainViewController */,
 			);
 			path = ViewController;
@@ -231,8 +260,8 @@
 		DE2EC1C629C7252E00C52028 /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DE2EC19429C4BC8F00C52028 /* Main.storyboard */,
-				DE2EC19229C4BC8F00C52028 /* ViewController.swift */,
+				DE2EC19429C4BC8F00C52028 /* MainViewController.storyboard */,
+				DE2EC19229C4BC8F00C52028 /* MainViewController.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -246,6 +275,50 @@
 				DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE2EC20429C9828E00C52028 /* GlobalTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */,
+				DE2EC20729C9832400C52028 /* GlobalTabBarController.swift */,
+			);
+			path = GlobalTabBarController;
+			sourceTree = "<group>";
+		};
+		DE2EC20929C983AC00C52028 /* SearchItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC20C29C983DF00C52028 /* SearchItemViewController.storyboard */,
+				DE2EC20A29C983D500C52028 /* SearchItemViewController.swift */,
+			);
+			path = SearchItemViewController;
+			sourceTree = "<group>";
+		};
+		DE2EC20E29C9841C00C52028 /* FavoriteItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC20F29C9842A00C52028 /* FavoriteItemViewController.storyboard */,
+				DE2EC21129C9843600C52028 /* FavoriteItemViewController.swift */,
+			);
+			path = FavoriteItemViewController;
+			sourceTree = "<group>";
+		};
+		DE2EC21329C984C900C52028 /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC21429C984E100C52028 /* SettingViewController.storyboard */,
+				DE2EC21629C984ED00C52028 /* SettingViewController.swift */,
+			);
+			path = SettingViewController;
+			sourceTree = "<group>";
+		};
+		DE2EC21829C9871A00C52028 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */,
+			);
+			path = CustomTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +362,11 @@
 				DE2EC1A329C4BC9100C52028 /* PBXTargetDependency */,
 			);
 			name = VariousCollectionViewPatternTests;
+			packageProductDependencies = (
+				DE2EC1FD29C8C0A700C52028 /* SwiftyMocky */,
+				DE2EC1FF29C8C0A700C52028 /* swiftymocky */,
+				DE2EC20229C8C0F100C52028 /* CombineExpectations */,
+			);
 			productName = VariousCollectionViewPatternTests;
 			productReference = DE2EC1A129C4BC9100C52028 /* VariousCollectionViewPatternTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -348,6 +426,8 @@
 				DE2EC1CA29C7270100C52028 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				DE2EC1ED29C8A3B900C52028 /* XCRemoteSwiftPackageReference "Cosmos" */,
+				DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */,
+				DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -367,7 +447,11 @@
 			files = (
 				DE2EC19B29C4BC9000C52028 /* LaunchScreen.storyboard in Resources */,
 				DE2EC19829C4BC9000C52028 /* Assets.xcassets in Resources */,
-				DE2EC19629C4BC8F00C52028 /* Main.storyboard in Resources */,
+				DE2EC19629C4BC8F00C52028 /* MainViewController.storyboard in Resources */,
+				DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */,
+				DE2EC20D29C983DF00C52028 /* SearchItemViewController.storyboard in Resources */,
+				DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */,
+				DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,16 +478,21 @@
 			files = (
 				DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */,
 				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
+				DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */,
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
 				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
+				DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */,
 				DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */,
 				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
 				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
 				DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */,
 				DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */,
+				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
-				DE2EC19329C4BC8F00C52028 /* ViewController.swift in Sources */,
+				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
+				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
+				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
@@ -444,12 +533,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE2EC19429C4BC8F00C52028 /* Main.storyboard */ = {
+		DE2EC19429C4BC8F00C52028 /* MainViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DE2EC19529C4BC8F00C52028 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		DE2EC19929C4BC9000C52028 /* LaunchScreen.storyboard */ = {
@@ -589,10 +678,10 @@
 				INFOPLIST_FILE = VariousCollectionViewPattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = GlobalTabBarController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,10 +707,10 @@
 				INFOPLIST_FILE = VariousCollectionViewPattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = GlobalTabBarController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -785,6 +874,22 @@
 				kind = branch;
 			};
 		};
+		DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MakeAWishFoundation/SwiftyMocky.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/CombineExpectations.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -812,6 +917,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE2EC1ED29C8A3B900C52028 /* XCRemoteSwiftPackageReference "Cosmos" */;
 			productName = Cosmos;
+		};
+		DE2EC1FD29C8C0A700C52028 /* SwiftyMocky */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */;
+			productName = SwiftyMocky;
+		};
+		DE2EC1FF29C8C0A700C52028 /* swiftymocky */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */;
+			productName = swiftymocky;
+		};
+		DE2EC20229C8C0F100C52028 /* CombineExpectations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */;
+			productName = CombineExpectations;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
