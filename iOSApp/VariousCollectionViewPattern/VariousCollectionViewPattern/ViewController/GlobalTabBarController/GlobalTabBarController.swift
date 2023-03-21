@@ -25,13 +25,13 @@ final class GlobalTabBarController: UITabBarController {
         func getTitle() -> String {
             switch self {
             case .main:
-                return "ラーメン道中記"
+                return "ファッション集め"
             case .search:
-                return "お店を探す"
+                return "アイテムを検索"
             case .favorite:
-                return "おすすめのお店"
+                return "お気に入り"
             case .setting:
-                return "おすすめのお店"
+                return "アプリに関する設定"
             }
         }
 
@@ -39,11 +39,11 @@ final class GlobalTabBarController: UITabBarController {
         func getSymbolName() -> String {
             switch self {
             case .main:
-                return "house.fill"
+                return "books.vertical.circle.fill"
             case .search:
                 return "magnifyingglass.circle"
             case .favorite:
-                return "rectangle.stack.fill"
+                return "heart.circle.fill"
             case .setting:
                 return "rectangle.stack.fill"
             }
@@ -54,7 +54,7 @@ final class GlobalTabBarController: UITabBarController {
 
     private let itemSize = CGSize(width: 28.0, height: 28.0)
     private let normalColor: UIColor = UIColor.lightGray
-    private let selectedColor: UIColor = UIColor(code: "#ddcfb8")
+    private let selectedColor: UIColor = UIColor(code: "#f5b2b2")
     private let tabBarItemFont = UIFont(name: "HelveticaNeue-Medium", size: 10)!
 
     // MEMO: UITabBarの切り替え時に実行するカスタムトランジションのクラス

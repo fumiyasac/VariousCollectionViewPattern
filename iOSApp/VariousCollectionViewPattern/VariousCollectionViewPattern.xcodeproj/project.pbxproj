@@ -226,6 +226,7 @@
 		DE2EC1C329C7248400C52028 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DE3172CC29C9C6EC0085C7FC /* DetailItemViewController */,
 				DE2EC21329C984C900C52028 /* SettingViewController */,
 				DE2EC20E29C9841C00C52028 /* FavoriteItemViewController */,
 				DE2EC20929C983AC00C52028 /* SearchItemViewController */,
@@ -319,6 +320,13 @@
 				DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */,
 			);
 			path = CustomTransition;
+			sourceTree = "<group>";
+		};
+		DE3172CC29C9C6EC0085C7FC /* DetailItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailItemViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
