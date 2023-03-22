@@ -48,6 +48,14 @@
 		DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */; };
 		DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172CD29C9E7310085C7FC /* DetailItemViewController.swift */; };
 		DE3172D029C9EB4B0085C7FC /* DetailItemViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3172CF29C9EB4B0085C7FC /* DetailItemViewController.storyboard */; };
+		DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172D229CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift */; };
+		DE3172D529CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172D329CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib */; };
+		DE3172D929CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172D729CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift */; };
+		DE3172DA29CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172D829CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib */; };
+		DE3172DE29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172DC29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift */; };
+		DE3172DF29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172DD29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib */; };
+		DE3172E329CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172E129CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift */; };
+		DE3172E429CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172E229CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +113,14 @@
 		DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarTransition.swift; sourceTree = "<group>"; };
 		DE3172CD29C9E7310085C7FC /* DetailItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewController.swift; sourceTree = "<group>"; };
 		DE3172CF29C9EB4B0085C7FC /* DetailItemViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailItemViewController.storyboard; sourceTree = "<group>"; };
+		DE3172D229CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarouselMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3172D329CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SnapCarouselMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE3172D729CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCarouselMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3172D829CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCarouselMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE3172DC29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementGroupCarouselMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3172DD29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementGroupCarouselMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE3172E129CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryGridMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3172E229CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryGridMainCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +224,10 @@
 		DE2EC1C029C722A400C52028 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE3172DB29CB46240085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell */,
+				DE3172E029CB466A0085C7FC /* GalleryGridMainCollectionViewCell */,
+				DE3172D629CB45A10085C7FC /* HorizontalCarouselMainCollectionViewCell */,
+				DE3172D129CB454B0085C7FC /* SnapCarouselMainCollectionViewCell */,
 				DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */,
 			);
 			path = View;
@@ -333,6 +353,42 @@
 				DE3172CD29C9E7310085C7FC /* DetailItemViewController.swift */,
 			);
 			path = DetailItemViewController;
+			sourceTree = "<group>";
+		};
+		DE3172D129CB454B0085C7FC /* SnapCarouselMainCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE3172D329CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib */,
+				DE3172D229CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift */,
+			);
+			path = SnapCarouselMainCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DE3172D629CB45A10085C7FC /* HorizontalCarouselMainCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE3172D829CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib */,
+				DE3172D729CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift */,
+			);
+			path = HorizontalCarouselMainCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DE3172DB29CB46240085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE3172DD29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib */,
+				DE3172DC29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift */,
+			);
+			path = AnnouncementGroupCarouselMainCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DE3172E029CB466A0085C7FC /* GalleryGridMainCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE3172E229CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib */,
+				DE3172E129CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift */,
+			);
+			path = GalleryGridMainCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,10 +519,14 @@
 				DE2EC19829C4BC9000C52028 /* Assets.xcassets in Resources */,
 				DE2EC19629C4BC8F00C52028 /* MainViewController.storyboard in Resources */,
 				DE3172D029C9EB4B0085C7FC /* DetailItemViewController.storyboard in Resources */,
+				DE3172D529CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib in Resources */,
 				DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */,
 				DE2EC20D29C983DF00C52028 /* SearchItemViewController.storyboard in Resources */,
+				DE3172DA29CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib in Resources */,
+				DE3172E429CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib in Resources */,
 				DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */,
 				DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */,
+				DE3172DF29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,16 +551,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3172E329CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift in Sources */,
 				DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */,
 				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
 				DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */,
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
 				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
+				DE3172D929CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift in Sources */,
+				DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */,
 				DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */,
 				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
 				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
+				DE3172DE29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */,
 				DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */,
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
