@@ -56,6 +56,8 @@
 		DE3172DF29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172DD29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib */; };
 		DE3172E329CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172E129CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift */; };
 		DE3172E429CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172E229CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib */; };
+		DE3172E829CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172E629CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.swift */; };
+		DE3172E929CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172E729CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,8 @@
 		DE3172DD29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementGroupCarouselMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		DE3172E129CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryGridMainCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE3172E229CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryGridMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE3172E629CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedSectionCarouselMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3172E729CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedSectionCarouselMainCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				DE3172DB29CB46240085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell */,
+				DE3172E529CB52360085C7FC /* FeaturedSectionCarouselMainCollectionViewCell */,
 				DE3172E029CB466A0085C7FC /* GalleryGridMainCollectionViewCell */,
 				DE3172D629CB45A10085C7FC /* HorizontalCarouselMainCollectionViewCell */,
 				DE3172D129CB454B0085C7FC /* SnapCarouselMainCollectionViewCell */,
@@ -391,6 +396,15 @@
 			path = GalleryGridMainCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		DE3172E529CB52360085C7FC /* FeaturedSectionCarouselMainCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE3172E729CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib */,
+				DE3172E629CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.swift */,
+			);
+			path = FeaturedSectionCarouselMainCollectionViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -524,6 +538,7 @@
 				DE2EC20D29C983DF00C52028 /* SearchItemViewController.storyboard in Resources */,
 				DE3172DA29CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib in Resources */,
 				DE3172E429CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib in Resources */,
+				DE3172E929CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib in Resources */,
 				DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */,
 				DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */,
 				DE3172DF29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib in Resources */,
@@ -565,6 +580,7 @@
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
 				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
 				DE3172DE29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift in Sources */,
+				DE3172E829CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */,
 				DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */,
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
