@@ -12,7 +12,7 @@ final class GlobalTabBarController: UITabBarController {
     // MARK: - Enum
 
     // MEMO: BaseTabBarControllerへ配置するものに関する設定
-    private enum TabBarItems: CaseIterable {
+    enum TabBarItems: CaseIterable {
 
         case main
         case search

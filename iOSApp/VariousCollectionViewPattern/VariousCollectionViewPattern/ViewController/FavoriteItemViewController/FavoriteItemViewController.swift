@@ -13,5 +13,7 @@ final class FavoriteItemViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.navigationController?.title = GlobalTabBarController.TabBarItems.favorite.getTitle()
     }
 }
