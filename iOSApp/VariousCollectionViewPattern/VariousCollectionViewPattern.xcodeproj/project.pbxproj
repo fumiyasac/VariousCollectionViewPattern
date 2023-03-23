@@ -60,6 +60,8 @@
 		DE3172E929CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172E729CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib */; };
 		DE3172ED29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172EB29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift */; };
 		DE3172EE29CD09080085C7FC /* FavoriteItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172EC29CD09080085C7FC /* FavoriteItemCollectionViewCell.xib */; };
+		DE3172F229CD09910085C7FC /* SettingItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172F029CD09910085C7FC /* SettingItemCollectionViewCell.swift */; };
+		DE3172F329CD09910085C7FC /* SettingItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172F129CD09910085C7FC /* SettingItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,8 @@
 		DE3172E729CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedSectionCarouselMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		DE3172EB29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE3172EC29CD09080085C7FC /* FavoriteItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE3172F029CD09910085C7FC /* SettingItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3172F129CD09910085C7FC /* SettingItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +241,7 @@
 				DE3172E529CB52360085C7FC /* FeaturedSectionCarouselMainCollectionViewCell */,
 				DE3172E029CB466A0085C7FC /* GalleryGridMainCollectionViewCell */,
 				DE3172D629CB45A10085C7FC /* HorizontalCarouselMainCollectionViewCell */,
+				DE3172EF29CD09700085C7FC /* SettingItemCollectionViewCell */,
 				DE3172D129CB454B0085C7FC /* SnapCarouselMainCollectionViewCell */,
 				DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */,
 			);
@@ -419,6 +424,15 @@
 			path = FavoriteItemCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		DE3172EF29CD09700085C7FC /* SettingItemCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE3172F129CD09910085C7FC /* SettingItemCollectionViewCell.xib */,
+				DE3172F029CD09910085C7FC /* SettingItemCollectionViewCell.swift */,
+			);
+			path = SettingItemCollectionViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -554,6 +568,7 @@
 				DE3172DA29CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib in Resources */,
 				DE3172E429CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib in Resources */,
 				DE3172E929CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib in Resources */,
+				DE3172F329CD09910085C7FC /* SettingItemCollectionViewCell.xib in Resources */,
 				DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */,
 				DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */,
 				DE3172DF29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib in Resources */,
@@ -596,6 +611,7 @@
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
 				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
 				DE3172DE29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift in Sources */,
+				DE3172F229CD09910085C7FC /* SettingItemCollectionViewCell.swift in Sources */,
 				DE3172E829CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */,
 				DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */,
