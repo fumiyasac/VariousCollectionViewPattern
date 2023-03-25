@@ -481,8 +481,8 @@
 		DE3172F929CEDE0F0085C7FC /* SearchResultCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */,
 				DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */,
+				DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */,
 			);
 			path = SearchResultCollectionViewCell;
 			sourceTree = "<group>";
