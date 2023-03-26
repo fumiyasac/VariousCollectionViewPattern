@@ -64,6 +64,7 @@
 		DE3172F329CD09910085C7FC /* SettingItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172F129CD09910085C7FC /* SettingItemCollectionViewCell.xib */; };
 		DE3172FC29CEDE380085C7FC /* SearchResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */; };
 		DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */; };
+		DE31730229D074030085C7FC /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730129D074020085C7FC /* KeychainManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,7 @@
 		DE3172F129CD09910085C7FC /* SettingItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE31730129D074020085C7FC /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,9 @@
 		DE2EC1C229C723EB00C52028 /* Managaer */ = {
 			isa = PBXGroup;
 			children = (
+				DE3172FE29D073A80085C7FC /* API */,
+				DE31730029D073BF0085C7FC /* Keychain */,
+				DE3172FF29D073B10085C7FC /* Realm */,
 			);
 			path = Managaer;
 			sourceTree = "<group>";
@@ -487,6 +492,28 @@
 			path = SearchResultCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		DE3172FE29D073A80085C7FC /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DE3172FF29D073B10085C7FC /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		DE31730029D073BF0085C7FC /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				DE31730129D074020085C7FC /* KeychainManager.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -673,6 +700,7 @@
 				DE3172FC29CEDE380085C7FC /* SearchResultCollectionViewCell.swift in Sources */,
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
+				DE31730229D074030085C7FC /* KeychainManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
