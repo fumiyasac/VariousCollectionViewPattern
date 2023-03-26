@@ -65,6 +65,7 @@
 		DE3172FC29CEDE380085C7FC /* SearchResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */; };
 		DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */; };
 		DE31730229D074030085C7FC /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730129D074020085C7FC /* KeychainManager.swift */; };
+		DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730329D075540085C7FC /* RealmAccessManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCollectionViewCell.xib; sourceTree = "<group>"; };
 		DE31730129D074020085C7FC /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		DE31730329D075540085C7FC /* RealmAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAccessManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -502,6 +504,7 @@
 		DE3172FF29D073B10085C7FC /* Realm */ = {
 			isa = PBXGroup;
 			children = (
+				DE31730329D075540085C7FC /* RealmAccessManager.swift */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -703,6 +706,7 @@
 				DE31730229D074030085C7FC /* KeychainManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
+				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
