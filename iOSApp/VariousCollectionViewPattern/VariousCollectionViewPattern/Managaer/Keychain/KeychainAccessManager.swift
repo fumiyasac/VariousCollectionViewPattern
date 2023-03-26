@@ -1,5 +1,5 @@
 //
-//  KeychainManager.swift
+//  KeychainAccessManager.swift
 //  VariousCollectionViewPattern
 //
 //  Created by 酒井文也 on 2023/03/26.
@@ -8,7 +8,7 @@
 import Foundation
 import KeychainAccess
 
-protocol KeychainProtocol {
+protocol KeychainAccessProtocol {
 
     // 新しく取得したJWTの保存処理
     func saveJsonAccessToken(_ token: String)
@@ -20,11 +20,11 @@ protocol KeychainProtocol {
     func existsJsonAccessToken() -> Bool
 }
 
-class KeychainManager: KeychainProtocol {
+class KeychainAccessManager: KeychainAccessProtocol {
 
     // MARK: - Singleton Instance
 
-    static let shared = KeychainManager()
+    static let shared = KeychainAccessManager()
 
     // MARK: - Properies
 
