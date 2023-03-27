@@ -14,6 +14,6 @@ final class SearchItemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationController?.title = GlobalTabBarController.TabBarItems.search.getTitle()
+        setupNavigationBarTitle(GlobalTabBarController.TabBarItems.search.getTitle())
     }
 }
