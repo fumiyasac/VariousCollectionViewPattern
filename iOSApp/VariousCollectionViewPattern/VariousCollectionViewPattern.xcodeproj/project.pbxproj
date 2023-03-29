@@ -67,6 +67,8 @@
 		DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730129D074020085C7FC /* KeychainAccessManager.swift */; };
 		DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730329D075540085C7FC /* RealmAccessManager.swift */; };
 		DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730529D1C3150085C7FC /* ApiClientManager.swift */; };
+		DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730829D471FC0085C7FC /* MainViewModel.swift */; };
+		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +145,8 @@
 		DE31730129D074020085C7FC /* KeychainAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccessManager.swift; sourceTree = "<group>"; };
 		DE31730329D075540085C7FC /* RealmAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAccessManager.swift; sourceTree = "<group>"; };
 		DE31730529D1C3150085C7FC /* ApiClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientManager.swift; sourceTree = "<group>"; };
+		DE31730829D471FC0085C7FC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +244,8 @@
 		DE2EC1BE29C7227A00C52028 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DE31730829D471FC0085C7FC /* MainViewModel.swift */,
+				DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -717,12 +723,14 @@
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
+				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
 				DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
+				DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */,
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
 			);
