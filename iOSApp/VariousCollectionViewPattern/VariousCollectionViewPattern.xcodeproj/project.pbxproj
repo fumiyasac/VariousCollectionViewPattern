@@ -213,10 +213,9 @@
 				DE2EC1D429C8943C00C52028 /* Classes */,
 				DE2EC21829C9871A00C52028 /* CustomTransition */,
 				DE2EC1C529C724A000C52028 /* DependencyInjection */,
+				DEB7454729D5AA4D00AB18FC /* Domain */,
 				DE2EC1C429C7248E00C52028 /* Extension */,
 				DE2EC1C229C723EB00C52028 /* Managaer */,
-				DE31730729D1D0690085C7FC /* Model */,
-				DE2EC1C129C722A900C52028 /* Repository */,
 				DE2EC1C029C722A400C52028 /* View */,
 				DE2EC1C329C7248400C52028 /* ViewController */,
 				DE2EC1BE29C7227A00C52028 /* ViewModel */,
@@ -261,13 +260,6 @@
 				DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		DE2EC1C129C722A900C52028 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repository;
 			sourceTree = "<group>";
 		};
 		DE2EC1C229C723EB00C52028 /* Managaer */ = {
@@ -527,11 +519,27 @@
 			path = Keychain;
 			sourceTree = "<group>";
 		};
-		DE31730729D1D0690085C7FC /* Model */ = {
+		DEB7454729D5AA4D00AB18FC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7454829D5AA5700AB18FC /* Model */,
+				DEB7454929D5AA5D00AB18FC /* Repository */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DEB7454829D5AA5700AB18FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DEB7454929D5AA5D00AB18FC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
