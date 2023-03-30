@@ -69,6 +69,9 @@
 		DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730529D1C3150085C7FC /* ApiClientManager.swift */; };
 		DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730829D471FC0085C7FC /* MainViewModel.swift */; };
 		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
+		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
+		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
+		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +150,9 @@
 		DE31730529D1C3150085C7FC /* ApiClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientManager.swift; sourceTree = "<group>"; };
 		DE31730829D471FC0085C7FC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewModel.swift; sourceTree = "<group>"; };
+		DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewModel.swift; sourceTree = "<group>"; };
+		DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +251,9 @@
 			children = (
 				DE31730829D471FC0085C7FC /* MainViewModel.swift */,
 				DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */,
+				DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */,
+				DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */,
+				DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -713,6 +722,7 @@
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
 				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
 				DE3172D929CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift in Sources */,
+				DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */,
 				DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */,
 				DE3172ED29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift in Sources */,
@@ -732,11 +742,13 @@
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
+				DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */,
 				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
 				DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */,
+				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
 				DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */,
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
