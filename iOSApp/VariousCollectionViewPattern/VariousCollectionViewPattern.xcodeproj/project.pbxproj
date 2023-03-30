@@ -261,11 +261,11 @@
 		DE2EC1C029C722A400C52028 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DEB7455029D6315300AB18FC /* DetailItem */,
 				DE3172F829CEDDD10085C7FC /* Search */,
 				DE3172F729CEDDC30085C7FC /* Favorite */,
 				DE3172F629CEDDBB0085C7FC /* Setting */,
 				DE3172F529CEDDAD0085C7FC /* Main */,
-				DE3172F429CEDDA40085C7FC /* DetailItem */,
 				DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */,
 			);
 			path = View;
@@ -452,13 +452,6 @@
 			path = SettingItemCollectionViewCell;
 			sourceTree = "<group>";
 		};
-		DE3172F429CEDDA40085C7FC /* DetailItem */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DetailItem;
-			sourceTree = "<group>";
-		};
 		DE3172F529CEDDAD0085C7FC /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +542,13 @@
 			children = (
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		DEB7455029D6315300AB18FC /* DetailItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
