@@ -72,6 +72,7 @@
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
 		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
 		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
+		DEB7455229D632E600AB18FC /* FavoriteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455129D632E600AB18FC /* FavoriteRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 		DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewModel.swift; sourceTree = "<group>"; };
 		DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
+		DEB7455129D632E600AB18FC /* FavoriteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -540,6 +542,7 @@
 		DEB7454929D5AA5D00AB18FC /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				DEB7455129D632E600AB18FC /* FavoriteRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -723,6 +726,7 @@
 				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
 				DE3172D929CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift in Sources */,
 				DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */,
+				DEB7455229D632E600AB18FC /* FavoriteRepository.swift in Sources */,
 				DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */,
 				DE3172ED29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift in Sources */,
