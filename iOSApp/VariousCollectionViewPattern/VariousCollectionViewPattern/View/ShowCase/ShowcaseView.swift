@@ -9,6 +9,9 @@ import SwiftUI
 
 // 1つの画面だけSwiftUIでView要素を試しに作ってみます。
 
+// TODO: 画面遷移用Extension作成
+// ViewModelはPropertyWrapperをベースにする
+
 struct ShowcaseView: View {
     var body: some View {
         Text("Showcase画面: SwiftUI製で作る")
