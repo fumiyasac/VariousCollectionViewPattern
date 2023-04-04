@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+protocol FavoriteRepository {}
+
+final class FavoriteRepositoryImpl: FavoriteRepository {
+    
+    // MARK: - Initializer
+
+    init() {
+        
+    }
+}
