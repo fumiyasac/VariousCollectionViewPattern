@@ -75,6 +75,7 @@
 		DEB7455229D632E600AB18FC /* FavoriteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455129D632E600AB18FC /* FavoriteRepository.swift */; };
 		DEB7455529D7B77100AB18FC /* ShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455429D7B77100AB18FC /* ShowcaseView.swift */; };
 		DEB7455729DDB9F200AB18FC /* ShowCaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455629DDB9F200AB18FC /* ShowCaseRepository.swift */; };
+		DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +160,7 @@
 		DEB7455129D632E600AB18FC /* FavoriteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRepository.swift; sourceTree = "<group>"; };
 		DEB7455429D7B77100AB18FC /* ShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseView.swift; sourceTree = "<group>"; };
 		DEB7455629DDB9F200AB18FC /* ShowCaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseRepository.swift; sourceTree = "<group>"; };
+		DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -549,6 +551,7 @@
 			children = (
 				DEB7455129D632E600AB18FC /* FavoriteRepository.swift */,
 				DEB7455629DDB9F200AB18FC /* ShowCaseRepository.swift */,
+				DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -757,6 +760,7 @@
 				DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */,
 				DE3172FC29CEDE380085C7FC /* SearchResultCollectionViewCell.swift in Sources */,
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
+				DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */,
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
