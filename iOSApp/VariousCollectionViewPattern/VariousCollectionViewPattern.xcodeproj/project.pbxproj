@@ -77,6 +77,7 @@
 		DEB7455729DDB9F200AB18FC /* ShowCaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455629DDB9F200AB18FC /* ShowCaseRepository.swift */; };
 		DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */; };
 		DEB7455B29E05A4700AB18FC /* SearchItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */; };
+		DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455C29E1658000AB18FC /* SettingRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +164,7 @@
 		DEB7455629DDB9F200AB18FC /* ShowCaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseRepository.swift; sourceTree = "<group>"; };
 		DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemRepository.swift; sourceTree = "<group>"; };
 		DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemRepository.swift; sourceTree = "<group>"; };
+		DEB7455C29E1658000AB18FC /* SettingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -555,6 +557,7 @@
 				DEB7455629DDB9F200AB18FC /* ShowCaseRepository.swift */,
 				DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */,
 				DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */,
+				DEB7455C29E1658000AB18FC /* SettingRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -774,6 +777,7 @@
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
+				DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */,
 				DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
