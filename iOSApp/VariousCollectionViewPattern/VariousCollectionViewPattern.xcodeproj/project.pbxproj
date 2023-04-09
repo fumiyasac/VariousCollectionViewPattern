@@ -78,6 +78,7 @@
 		DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */; };
 		DEB7455B29E05A4700AB18FC /* SearchItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */; };
 		DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455C29E1658000AB18FC /* SettingRepository.swift */; };
+		DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +166,7 @@
 		DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemRepository.swift; sourceTree = "<group>"; };
 		DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemRepository.swift; sourceTree = "<group>"; };
 		DEB7455C29E1658000AB18FC /* SettingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepository.swift; sourceTree = "<group>"; };
+		DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGalleryGridPaginationRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -558,6 +560,7 @@
 				DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */,
 				DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */,
 				DEB7455C29E1658000AB18FC /* SettingRepository.swift */,
+				DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -772,6 +775,7 @@
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
+				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
 				DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */,
 				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
