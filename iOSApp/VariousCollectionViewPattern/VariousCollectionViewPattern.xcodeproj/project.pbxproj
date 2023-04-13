@@ -79,6 +79,7 @@
 		DEB7455B29E05A4700AB18FC /* SearchItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */; };
 		DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455C29E1658000AB18FC /* SettingRepository.swift */; };
 		DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */; };
+		DEC576DE29E82A08000C28B5 /* ShowCaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,7 @@
 		DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemRepository.swift; sourceTree = "<group>"; };
 		DEB7455C29E1658000AB18FC /* SettingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepository.swift; sourceTree = "<group>"; };
 		DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGalleryGridPaginationRepository.swift; sourceTree = "<group>"; };
+		DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 				DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */,
 				DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */,
 				DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */,
+				DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -757,6 +760,7 @@
 				DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */,
 				DE3172ED29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift in Sources */,
+				DEC576DE29E82A08000C28B5 /* ShowCaseViewModel.swift in Sources */,
 				DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */,
 				DEB7455529D7B77100AB18FC /* ShowcaseView.swift in Sources */,
 				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
