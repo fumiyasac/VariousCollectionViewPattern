@@ -80,6 +80,7 @@
 		DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7455C29E1658000AB18FC /* SettingRepository.swift */; };
 		DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */; };
 		DEC576DE29E82A08000C28B5 /* ShowCaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */; };
+		DEC576E029E8D125000C28B5 /* MainAnnouncementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +170,7 @@
 		DEB7455C29E1658000AB18FC /* SettingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepository.swift; sourceTree = "<group>"; };
 		DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGalleryGridPaginationRepository.swift; sourceTree = "<group>"; };
 		DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseViewModel.swift; sourceTree = "<group>"; };
+		DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnnouncementRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -564,6 +566,7 @@
 				DEB7455A29E05A4700AB18FC /* SearchItemRepository.swift */,
 				DEB7455C29E1658000AB18FC /* SettingRepository.swift */,
 				DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */,
+				DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -790,6 +793,7 @@
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
 				DEB7455B29E05A4700AB18FC /* SearchItemRepository.swift in Sources */,
+				DEC576E029E8D125000C28B5 /* MainAnnouncementRepository.swift in Sources */,
 				DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */,
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
