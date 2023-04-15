@@ -82,6 +82,8 @@
 		DEC576DE29E82A08000C28B5 /* ShowCaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */; };
 		DEC576E029E8D125000C28B5 /* MainAnnouncementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */; };
 		DEC576E229EAA95A000C28B5 /* MainFeaturedContentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */; };
+		DEC576E429EAE124000C28B5 /* MainPickupContentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E329EAE124000C28B5 /* MainPickupContentsRepository.swift */; };
+		DEC576E629EAE19D000C28B5 /* MainSpecialBannerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +175,8 @@
 		DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseViewModel.swift; sourceTree = "<group>"; };
 		DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnnouncementRepository.swift; sourceTree = "<group>"; };
 		DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeaturedContentsRepository.swift; sourceTree = "<group>"; };
+		DEC576E329EAE124000C28B5 /* MainPickupContentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPickupContentsRepository.swift; sourceTree = "<group>"; };
+		DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSpecialBannerRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -570,6 +574,8 @@
 				DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */,
 				DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */,
 				DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */,
+				DEC576E329EAE124000C28B5 /* MainPickupContentsRepository.swift */,
+				DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -761,6 +767,7 @@
 				DEB7455729DDB9F200AB18FC /* ShowCaseRepository.swift in Sources */,
 				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
 				DE3172D929CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift in Sources */,
+				DEC576E629EAE19D000C28B5 /* MainSpecialBannerRepository.swift in Sources */,
 				DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */,
 				DEB7455229D632E600AB18FC /* FavoriteItemRepository.swift in Sources */,
 				DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */,
@@ -801,6 +808,7 @@
 				DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */,
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
+				DEC576E429EAE124000C28B5 /* MainPickupContentsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
