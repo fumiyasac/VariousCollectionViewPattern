@@ -81,6 +81,7 @@
 		DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */; };
 		DEC576DE29E82A08000C28B5 /* ShowCaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */; };
 		DEC576E029E8D125000C28B5 /* MainAnnouncementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */; };
+		DEC576E229EAA95A000C28B5 /* MainFeaturedContentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +172,7 @@
 		DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGalleryGridPaginationRepository.swift; sourceTree = "<group>"; };
 		DEC576DD29E82A08000C28B5 /* ShowCaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseViewModel.swift; sourceTree = "<group>"; };
 		DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnnouncementRepository.swift; sourceTree = "<group>"; };
+		DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeaturedContentsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -567,6 +569,7 @@
 				DEB7455C29E1658000AB18FC /* SettingRepository.swift */,
 				DEC576DB29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift */,
 				DEC576DF29E8D125000C28B5 /* MainAnnouncementRepository.swift */,
+				DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -784,6 +787,7 @@
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
 				DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */,
+				DEC576E229EAA95A000C28B5 /* MainFeaturedContentsRepository.swift in Sources */,
 				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
