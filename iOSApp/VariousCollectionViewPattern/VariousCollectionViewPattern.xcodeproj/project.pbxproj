@@ -84,6 +84,8 @@
 		DEC576E229EAA95A000C28B5 /* MainFeaturedContentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */; };
 		DEC576E429EAE124000C28B5 /* MainPickupContentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E329EAE124000C28B5 /* MainPickupContentsRepository.swift */; };
 		DEC576E629EAE19D000C28B5 /* MainSpecialBannerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */; };
+		DEC576E829EBF73E000C28B5 /* GalleryTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E729EBF73E000C28B5 /* GalleryTransition.swift */; };
+		DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +179,8 @@
 		DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeaturedContentsRepository.swift; sourceTree = "<group>"; };
 		DEC576E329EAE124000C28B5 /* MainPickupContentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPickupContentsRepository.swift; sourceTree = "<group>"; };
 		DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSpecialBannerRepository.swift; sourceTree = "<group>"; };
+		DEC576E729EBF73E000C28B5 /* GalleryTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTransition.swift; sourceTree = "<group>"; };
+		DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +406,8 @@
 			isa = PBXGroup;
 			children = (
 				DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */,
+				DEC576E729EBF73E000C28B5 /* GalleryTransition.swift */,
+				DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */,
 			);
 			path = CustomTransition;
 			sourceTree = "<group>";
@@ -785,12 +791,14 @@
 				DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */,
 				DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */,
 				DE3172FC29CEDE380085C7FC /* SearchResultCollectionViewCell.swift in Sources */,
+				DEC576E829EBF73E000C28B5 /* GalleryTransition.swift in Sources */,
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
 				DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */,
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
+				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
 				DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */,
