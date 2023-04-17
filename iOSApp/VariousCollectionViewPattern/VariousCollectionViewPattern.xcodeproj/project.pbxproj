@@ -86,6 +86,8 @@
 		DEC576E629EAE19D000C28B5 /* MainSpecialBannerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */; };
 		DEC576E829EBF73E000C28B5 /* GalleryTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E729EBF73E000C28B5 /* GalleryTransition.swift */; };
 		DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */; };
+		DEC576EC29ED7E95000C28B5 /* FeaturedContentsTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576EB29ED7E95000C28B5 /* FeaturedContentsTransition.swift */; };
+		DEC576EE29ED7FB2000C28B5 /* PickupContentsTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576ED29ED7FB2000C28B5 /* PickupContentsTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +183,8 @@
 		DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSpecialBannerRepository.swift; sourceTree = "<group>"; };
 		DEC576E729EBF73E000C28B5 /* GalleryTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTransition.swift; sourceTree = "<group>"; };
 		DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractor.swift; sourceTree = "<group>"; };
+		DEC576EB29ED7E95000C28B5 /* FeaturedContentsTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedContentsTransition.swift; sourceTree = "<group>"; };
+		DEC576ED29ED7FB2000C28B5 /* PickupContentsTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupContentsTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,6 +412,8 @@
 				DE2EC21929C9876800C52028 /* GlobalTabBarTransition.swift */,
 				DEC576E729EBF73E000C28B5 /* GalleryTransition.swift */,
 				DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */,
+				DEC576EB29ED7E95000C28B5 /* FeaturedContentsTransition.swift */,
+				DEC576ED29ED7FB2000C28B5 /* PickupContentsTransition.swift */,
 			);
 			path = CustomTransition;
 			sourceTree = "<group>";
@@ -767,6 +773,7 @@
 			files = (
 				DE3172E329CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift in Sources */,
 				DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */,
+				DEC576EC29ED7E95000C28B5 /* FeaturedContentsTransition.swift in Sources */,
 				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
 				DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */,
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
@@ -802,6 +809,7 @@
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
 				DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */,
+				DEC576EE29ED7FB2000C28B5 /* PickupContentsTransition.swift in Sources */,
 				DEC576E229EAA95A000C28B5 /* MainFeaturedContentsRepository.swift in Sources */,
 				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
