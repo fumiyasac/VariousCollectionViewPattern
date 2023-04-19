@@ -88,6 +88,8 @@
 		DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */; };
 		DEC576EC29ED7E95000C28B5 /* FeaturedContentsTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576EB29ED7E95000C28B5 /* FeaturedContentsTransition.swift */; };
 		DEC576EE29ED7FB2000C28B5 /* PickupContentsTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576ED29ED7FB2000C28B5 /* PickupContentsTransition.swift */; };
+		DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576EF29F021F9000C28B5 /* HorizontalCarouselMainViewController.swift */; };
+		DEC576F229F02215000C28B5 /* SnapCarouselMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576F129F02215000C28B5 /* SnapCarouselMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +187,8 @@
 		DEC576E929EBF760000C28B5 /* GalleryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractor.swift; sourceTree = "<group>"; };
 		DEC576EB29ED7E95000C28B5 /* FeaturedContentsTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedContentsTransition.swift; sourceTree = "<group>"; };
 		DEC576ED29ED7FB2000C28B5 /* PickupContentsTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupContentsTransition.swift; sourceTree = "<group>"; };
+		DEC576EF29F021F9000C28B5 /* HorizontalCarouselMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCarouselMainViewController.swift; sourceTree = "<group>"; };
+		DEC576F129F02215000C28B5 /* SnapCarouselMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarouselMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -498,6 +502,8 @@
 				DE3172D629CB45A10085C7FC /* HorizontalCarouselMainCollectionViewCell */,
 				DE3172E029CB466A0085C7FC /* GalleryGridMainCollectionViewCell */,
 				DE3172D129CB454B0085C7FC /* SnapCarouselMainCollectionViewCell */,
+				DEC576EF29F021F9000C28B5 /* HorizontalCarouselMainViewController.swift */,
+				DEC576F129F02215000C28B5 /* SnapCarouselMainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -814,9 +820,11 @@
 				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
+				DEC576F229F02215000C28B5 /* SnapCarouselMainViewController.swift in Sources */,
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
 				DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */,
 				DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */,
+				DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
 				DEB7455B29E05A4700AB18FC /* SearchItemRepository.swift in Sources */,
