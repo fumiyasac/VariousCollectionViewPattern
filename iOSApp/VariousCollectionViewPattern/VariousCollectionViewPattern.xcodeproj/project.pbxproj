@@ -94,6 +94,7 @@
 		DEC576F629F0AE4F000C28B5 /* PickupContentsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576F529F0AE4F000C28B5 /* PickupContentsEntity.swift */; };
 		DEC576F829F0AF55000C28B5 /* FeaturedContentsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576F729F0AF55000C28B5 /* FeaturedContentsEntity.swift */; };
 		DEC576FA29F0AF6F000C28B5 /* AnnouncementEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576F929F0AF6F000C28B5 /* AnnouncementEntity.swift */; };
+		DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576FB29F2B496000C28B5 /* GalleryEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,6 +198,7 @@
 		DEC576F529F0AE4F000C28B5 /* PickupContentsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupContentsEntity.swift; sourceTree = "<group>"; };
 		DEC576F729F0AF55000C28B5 /* FeaturedContentsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedContentsEntity.swift; sourceTree = "<group>"; };
 		DEC576F929F0AF6F000C28B5 /* AnnouncementEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementEntity.swift; sourceTree = "<group>"; };
+		DEC576FB29F2B496000C28B5 /* GalleryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -589,6 +591,7 @@
 				DEC576F729F0AF55000C28B5 /* FeaturedContentsEntity.swift */,
 				DEC576F529F0AE4F000C28B5 /* PickupContentsEntity.swift */,
 				DEC576F329F0AE3E000C28B5 /* SpecialBannerEntity.swift */,
+				DEC576FB29F2B496000C28B5 /* GalleryEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -824,6 +827,7 @@
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
+				DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
