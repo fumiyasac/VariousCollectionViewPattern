@@ -95,6 +95,11 @@
 		DEC576F829F0AF55000C28B5 /* FeaturedContentsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576F729F0AF55000C28B5 /* FeaturedContentsEntity.swift */; };
 		DEC576FA29F0AF6F000C28B5 /* AnnouncementEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576F929F0AF6F000C28B5 /* AnnouncementEntity.swift */; };
 		DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576FB29F2B496000C28B5 /* GalleryEntity.swift */; };
+		DEC576FE29F375B9000C28B5 /* ShowCaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC576FD29F375B9000C28B5 /* ShowCaseEntity.swift */; };
+		DEC5770229F37646000C28B5 /* ItemMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770029F37646000C28B5 /* ItemMainCollectionViewCell.swift */; };
+		DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */; };
+		DEC5770529F3767F000C28B5 /* ItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770429F3767F000C28B5 /* ItemEntity.swift */; };
+		DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770629F376A4000C28B5 /* MainItemRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +204,11 @@
 		DEC576F729F0AF55000C28B5 /* FeaturedContentsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedContentsEntity.swift; sourceTree = "<group>"; };
 		DEC576F929F0AF6F000C28B5 /* AnnouncementEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementEntity.swift; sourceTree = "<group>"; };
 		DEC576FB29F2B496000C28B5 /* GalleryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryEntity.swift; sourceTree = "<group>"; };
+		DEC576FD29F375B9000C28B5 /* ShowCaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseEntity.swift; sourceTree = "<group>"; };
+		DEC5770029F37646000C28B5 /* ItemMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		DEC5770429F3767F000C28B5 /* ItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEntity.swift; sourceTree = "<group>"; };
+		DEC5770629F376A4000C28B5 /* MainItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -507,6 +517,7 @@
 		DE3172F529CEDDAD0085C7FC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DEC576FF29F3761A000C28B5 /* ItemMainCollectionViewCell */,
 				DE3172DB29CB46240085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell */,
 				DE3172E529CB52360085C7FC /* FeaturedSectionCarouselMainCollectionViewCell */,
 				DE3172D629CB45A10085C7FC /* HorizontalCarouselMainCollectionViewCell */,
@@ -592,6 +603,8 @@
 				DEC576F529F0AE4F000C28B5 /* PickupContentsEntity.swift */,
 				DEC576F329F0AE3E000C28B5 /* SpecialBannerEntity.swift */,
 				DEC576FB29F2B496000C28B5 /* GalleryEntity.swift */,
+				DEC576FD29F375B9000C28B5 /* ShowCaseEntity.swift */,
+				DEC5770429F3767F000C28B5 /* ItemEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -609,6 +622,7 @@
 				DEC576E129EAA95A000C28B5 /* MainFeaturedContentsRepository.swift */,
 				DEC576E329EAE124000C28B5 /* MainPickupContentsRepository.swift */,
 				DEC576E529EAE19D000C28B5 /* MainSpecialBannerRepository.swift */,
+				DEC5770629F376A4000C28B5 /* MainItemRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -626,6 +640,15 @@
 				DEB7455429D7B77100AB18FC /* ShowcaseView.swift */,
 			);
 			path = ShowCase;
+			sourceTree = "<group>";
+		};
+		DEC576FF29F3761A000C28B5 /* ItemMainCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */,
+				DEC5770029F37646000C28B5 /* ItemMainCollectionViewCell.swift */,
+			);
+			path = ItemMainCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -758,6 +781,7 @@
 				DE3172EE29CD09080085C7FC /* FavoriteItemCollectionViewCell.xib in Resources */,
 				DE3172D029C9EB4B0085C7FC /* DetailItemViewController.storyboard in Resources */,
 				DE3172D529CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib in Resources */,
+				DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */,
 				DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */,
 				DE2EC20D29C983DF00C52028 /* SearchItemViewController.storyboard in Resources */,
 				DE3172DA29CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib in Resources */,
@@ -794,10 +818,12 @@
 			files = (
 				DE3172E329CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift in Sources */,
 				DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */,
+				DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */,
 				DEC576EC29ED7E95000C28B5 /* FeaturedContentsTransition.swift in Sources */,
 				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
 				DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */,
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
+				DEC5770229F37646000C28B5 /* ItemMainCollectionViewCell.swift in Sources */,
 				DEB7455729DDB9F200AB18FC /* ShowCaseRepository.swift in Sources */,
 				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
 				DE3172D929CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift in Sources */,
@@ -845,6 +871,8 @@
 				DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
+				DEC576FE29F375B9000C28B5 /* ShowCaseEntity.swift in Sources */,
+				DEC5770529F3767F000C28B5 /* ItemEntity.swift in Sources */,
 				DEB7455B29E05A4700AB18FC /* SearchItemRepository.swift in Sources */,
 				DEC576F829F0AF55000C28B5 /* FeaturedContentsEntity.swift in Sources */,
 				DEC576E029E8D125000C28B5 /* MainAnnouncementRepository.swift in Sources */,
