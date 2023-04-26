@@ -100,6 +100,8 @@
 		DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */; };
 		DEC5770529F3767F000C28B5 /* ItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770429F3767F000C28B5 /* ItemEntity.swift */; };
 		DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770629F376A4000C28B5 /* MainItemRepository.swift */; };
+		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
+		DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +211,8 @@
 		DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		DEC5770429F3767F000C28B5 /* ItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEntity.swift; sourceTree = "<group>"; };
 		DEC5770629F376A4000C28B5 /* MainItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemRepository.swift; sourceTree = "<group>"; };
+		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
+		DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSearchBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -548,6 +552,7 @@
 		DE3172F829CEDDD10085C7FC /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */,
 				DE3172F929CEDE0F0085C7FC /* SearchResultCollectionViewCell */,
 			);
 			path = Search;
@@ -649,6 +654,15 @@
 				DEC5770029F37646000C28B5 /* ItemMainCollectionViewCell.swift */,
 			);
 			path = ItemMainCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */ = {
+			isa = PBXGroup;
+			children = (
+				DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */,
+				DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */,
+			);
+			path = HeaderSearchBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -790,6 +804,7 @@
 				DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */,
 				DE3172F329CD09910085C7FC /* SettingItemCollectionViewCell.xib in Resources */,
 				DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */,
+				DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */,
 				DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */,
 				DE3172DF29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib in Resources */,
 			);
@@ -855,6 +870,7 @@
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
+				DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */,
 				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
