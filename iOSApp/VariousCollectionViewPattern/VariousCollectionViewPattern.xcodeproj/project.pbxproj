@@ -635,6 +635,8 @@
 		DEB7455029D6315300AB18FC /* DetailItem */ = {
 			isa = PBXGroup;
 			children = (
+				DEB8DC122A124E3200DFA8A7 /* DescriptionSectionView */,
+				DEB8DC112A124E1C00DFA8A7 /* ThumbnailSectionView */,
 			);
 			path = DetailItem;
 			sourceTree = "<group>";
@@ -645,6 +647,20 @@
 				DEB7455429D7B77100AB18FC /* ShowcaseView.swift */,
 			);
 			path = ShowCase;
+			sourceTree = "<group>";
+		};
+		DEB8DC112A124E1C00DFA8A7 /* ThumbnailSectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThumbnailSectionView;
+			sourceTree = "<group>";
+		};
+		DEB8DC122A124E3200DFA8A7 /* DescriptionSectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DescriptionSectionView;
 			sourceTree = "<group>";
 		};
 		DEC576FF29F3761A000C28B5 /* ItemMainCollectionViewCell */ = {
