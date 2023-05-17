@@ -102,6 +102,7 @@
 		DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770629F376A4000C28B5 /* MainItemRepository.swift */; };
 		DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */; };
 		DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */; };
+		DEE2F6702A14D6A700ED65AC /* MainUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */; };
 		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
 		DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */; };
 /* End PBXBuildFile section */
@@ -215,6 +216,7 @@
 		DEC5770629F376A4000C28B5 /* MainItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemRepository.swift; sourceTree = "<group>"; };
 		DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
 		DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
+		DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUseCase.swift; sourceTree = "<group>"; };
 		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
 		DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSearchBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -596,6 +598,7 @@
 			children = (
 				DEB7454829D5AA5700AB18FC /* Model */,
 				DEB7454929D5AA5D00AB18FC /* Repository */,
+				DEE2F66E2A14D69200ED65AC /* UseCase */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -692,6 +695,14 @@
 				DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		DEE2F66E2A14D69200ED65AC /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 		DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */ = {
@@ -922,6 +933,7 @@
 				DEC576F229F02215000C28B5 /* SnapCarouselMainViewController.swift in Sources */,
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
 				DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */,
+				DEE2F6702A14D6A700ED65AC /* MainUseCase.swift in Sources */,
 				DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */,
 				DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
