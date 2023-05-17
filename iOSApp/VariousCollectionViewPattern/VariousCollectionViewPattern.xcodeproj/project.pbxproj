@@ -359,12 +359,7 @@
 		DE2EC1C429C7248E00C52028 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */,
-				DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */,
-				DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */,
-				DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */,
-				DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */,
-				DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */,
+				DEE2F6682A14D0E200ED65AC /* UIKit */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -670,6 +665,19 @@
 				DEC5770029F37646000C28B5 /* ItemMainCollectionViewCell.swift */,
 			);
 			path = ItemMainCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DEE2F6682A14D0E200ED65AC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */,
+				DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */,
+				DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */,
+				DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */,
+				DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */,
+				DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */ = {
