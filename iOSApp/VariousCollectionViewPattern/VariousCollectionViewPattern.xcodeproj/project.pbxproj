@@ -103,6 +103,7 @@
 		DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */; };
 		DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */; };
 		DEE2F6702A14D6A700ED65AC /* MainUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */; };
+		DEE2F6722A158CC400ED65AC /* ShowcaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */; };
 		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
 		DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */; };
 /* End PBXBuildFile section */
@@ -217,6 +218,7 @@
 		DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
 		DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 		DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUseCase.swift; sourceTree = "<group>"; };
+		DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseDetailView.swift; sourceTree = "<group>"; };
 		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
 		DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSearchBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -648,6 +650,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB7455429D7B77100AB18FC /* ShowcaseView.swift */,
+				DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */,
 			);
 			path = ShowCase;
 			sourceTree = "<group>";
@@ -884,6 +887,7 @@
 				DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */,
 				DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */,
 				DEC576EC29ED7E95000C28B5 /* FeaturedContentsTransition.swift in Sources */,
+				DEE2F6722A158CC400ED65AC /* ShowcaseDetailView.swift in Sources */,
 				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
 				DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */,
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
