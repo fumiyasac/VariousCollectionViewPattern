@@ -100,6 +100,8 @@
 		DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */; };
 		DEC5770529F3767F000C28B5 /* ItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770429F3767F000C28B5 /* ItemEntity.swift */; };
 		DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770629F376A4000C28B5 /* MainItemRepository.swift */; };
+		DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */; };
+		DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */; };
 		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
 		DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */; };
 /* End PBXBuildFile section */
@@ -211,6 +213,8 @@
 		DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		DEC5770429F3767F000C28B5 /* ItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEntity.swift; sourceTree = "<group>"; };
 		DEC5770629F376A4000C28B5 /* MainItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemRepository.swift; sourceTree = "<group>"; };
+		DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
+		DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
 		DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSearchBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -359,6 +363,7 @@
 		DE2EC1C429C7248E00C52028 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DEE2F6692A14D49800ED65AC /* SwiftUI */,
 				DEE2F6682A14D0E200ED65AC /* UIKit */,
 			);
 			path = Extension;
@@ -680,6 +685,15 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
+		DEE2F6692A14D49800ED65AC /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */,
+				DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */ = {
 			isa = PBXGroup;
 			children = (
@@ -895,6 +909,7 @@
 				DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */,
+				DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */,
 				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
@@ -917,6 +932,7 @@
 				DEC576F829F0AF55000C28B5 /* FeaturedContentsEntity.swift in Sources */,
 				DEC576E029E8D125000C28B5 /* MainAnnouncementRepository.swift in Sources */,
 				DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */,
+				DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */,
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
 				DEC576F629F0AE4F000C28B5 /* PickupContentsEntity.swift in Sources */,
