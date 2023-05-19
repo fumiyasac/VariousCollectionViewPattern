@@ -104,6 +104,8 @@
 		DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */; };
 		DEE2F6702A14D6A700ED65AC /* MainUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */; };
 		DEE2F6722A158CC400ED65AC /* ShowcaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */; };
+		DEE2F6752A1714A600ED65AC /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */; };
+		DEE2F6772A17169D00ED65AC /* AuthenticationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */; };
 		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
 		DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */; };
 /* End PBXBuildFile section */
@@ -219,6 +221,8 @@
 		DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 		DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUseCase.swift; sourceTree = "<group>"; };
 		DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseDetailView.swift; sourceTree = "<group>"; };
+		DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationViewController.storyboard; sourceTree = "<group>"; };
 		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
 		DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSearchBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -354,6 +358,7 @@
 		DE2EC1C329C7248400C52028 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DEE2F6732A17148800ED65AC /* AuthenticationViewController */,
 				DE3172CC29C9C6EC0085C7FC /* DetailItemViewController */,
 				DE2EC21329C984C900C52028 /* SettingViewController */,
 				DE2EC20E29C9841C00C52028 /* FavoriteItemViewController */,
@@ -708,6 +713,15 @@
 			path = UseCase;
 			sourceTree = "<group>";
 		};
+		DEE2F6732A17148800ED65AC /* AuthenticationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */,
+				DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */,
+			);
+			path = AuthenticationViewController;
+			sourceTree = "<group>";
+		};
 		DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */ = {
 			isa = PBXGroup;
 			children = (
@@ -850,6 +864,7 @@
 				DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */,
 				DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */,
 				DE2EC20D29C983DF00C52028 /* SearchItemViewController.storyboard in Resources */,
+				DEE2F6772A17169D00ED65AC /* AuthenticationViewController.storyboard in Resources */,
 				DE3172DA29CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.xib in Resources */,
 				DE3172E429CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib in Resources */,
 				DE3172E929CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib in Resources */,
@@ -901,6 +916,7 @@
 				DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */,
 				DE3172ED29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift in Sources */,
+				DEE2F6752A1714A600ED65AC /* AuthenticationViewController.swift in Sources */,
 				DEC576DE29E82A08000C28B5 /* ShowCaseViewModel.swift in Sources */,
 				DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */,
 				DEB7455529D7B77100AB18FC /* ShowcaseView.swift in Sources */,
