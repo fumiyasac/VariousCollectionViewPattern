@@ -106,6 +106,8 @@
 		DEE2F6722A158CC400ED65AC /* ShowcaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */; };
 		DEE2F6752A1714A600ED65AC /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */; };
 		DEE2F6772A17169D00ED65AC /* AuthenticationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */; };
+		DEE2F6792A17177000ED65AC /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6782A17177000ED65AC /* AuthenticationViewModel.swift */; };
+		DEE2F67C2A18998D00ED65AC /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F67B2A18998D00ED65AC /* AnnouncementView.swift */; };
 		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
 		DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */; };
 /* End PBXBuildFile section */
@@ -223,6 +225,8 @@
 		DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseDetailView.swift; sourceTree = "<group>"; };
 		DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationViewController.storyboard; sourceTree = "<group>"; };
+		DEE2F6782A17177000ED65AC /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		DEE2F67B2A18998D00ED65AC /* AnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
 		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
 		DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSearchBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -321,6 +325,7 @@
 		DE2EC1BE29C7227A00C52028 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DEE2F6782A17177000ED65AC /* AuthenticationViewModel.swift */,
 				DE31730829D471FC0085C7FC /* MainViewModel.swift */,
 				DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */,
 				DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */,
@@ -334,6 +339,7 @@
 		DE2EC1C029C722A400C52028 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DEE2F67A2A18997E00ED65AC /* Announcement */,
 				DEB7455029D6315300AB18FC /* DetailItem */,
 				DE3172F829CEDDD10085C7FC /* Search */,
 				DE3172F729CEDDC30085C7FC /* Favorite */,
@@ -722,6 +728,14 @@
 			path = AuthenticationViewController;
 			sourceTree = "<group>";
 		};
+		DEE2F67A2A18997E00ED65AC /* Announcement */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2F67B2A18998D00ED65AC /* AnnouncementView.swift */,
+			);
+			path = Announcement;
+			sourceTree = "<group>";
+		};
 		DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */ = {
 			isa = PBXGroup;
 			children = (
@@ -937,6 +951,7 @@
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
+				DEE2F67C2A18998D00ED65AC /* AnnouncementView.swift in Sources */,
 				DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */,
@@ -958,6 +973,7 @@
 				DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
+				DEE2F6792A17177000ED65AC /* AuthenticationViewModel.swift in Sources */,
 				DEC576FE29F375B9000C28B5 /* ShowCaseEntity.swift in Sources */,
 				DEC5770529F3767F000C28B5 /* ItemEntity.swift in Sources */,
 				DEB7455B29E05A4700AB18FC /* SearchItemRepository.swift in Sources */,
