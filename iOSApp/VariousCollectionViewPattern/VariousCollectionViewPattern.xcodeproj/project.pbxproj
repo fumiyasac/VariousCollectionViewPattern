@@ -107,7 +107,9 @@
 		DEE2F6752A1714A600ED65AC /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */; };
 		DEE2F6772A17169D00ED65AC /* AuthenticationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */; };
 		DEE2F6792A17177000ED65AC /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6782A17177000ED65AC /* AuthenticationViewModel.swift */; };
-		DEE2F67C2A18998D00ED65AC /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F67B2A18998D00ED65AC /* AnnouncementView.swift */; };
+		DEE2F67E2A1899CA00ED65AC /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F67D2A1899CA00ED65AC /* AnnouncementView.swift */; };
+		DEE2F6822A18CA2600ED65AC /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6812A18CA2600ED65AC /* FeaturedViewController.swift */; };
+		DEE2F6862A18CA4800ED65AC /* FeaturedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6852A18CA4800ED65AC /* FeaturedViewController.storyboard */; };
 		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
 		DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */; };
 /* End PBXBuildFile section */
@@ -226,7 +228,9 @@
 		DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationViewController.storyboard; sourceTree = "<group>"; };
 		DEE2F6782A17177000ED65AC /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
-		DEE2F67B2A18998D00ED65AC /* AnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
+		DEE2F67D2A1899CA00ED65AC /* AnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
+		DEE2F6812A18CA2600ED65AC /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		DEE2F6852A18CA4800ED65AC /* FeaturedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeaturedViewController.storyboard; sourceTree = "<group>"; };
 		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
 		DEEAC19C29F9731F00BCA5C9 /* HeaderSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSearchBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -364,6 +368,7 @@
 		DE2EC1C329C7248400C52028 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DEE2F6802A18CA0700ED65AC /* FeaturedViewController */,
 				DEE2F6732A17148800ED65AC /* AuthenticationViewController */,
 				DE3172CC29C9C6EC0085C7FC /* DetailItemViewController */,
 				DE2EC21329C984C900C52028 /* SettingViewController */,
@@ -731,9 +736,26 @@
 		DEE2F67A2A18997E00ED65AC /* Announcement */ = {
 			isa = PBXGroup;
 			children = (
-				DEE2F67B2A18998D00ED65AC /* AnnouncementView.swift */,
+				DEE2F67D2A1899CA00ED65AC /* AnnouncementView.swift */,
 			);
 			path = Announcement;
+			sourceTree = "<group>";
+		};
+		DEE2F6802A18CA0700ED65AC /* FeaturedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2F6832A18CA2A00ED65AC /* ViewParts */,
+				DEE2F6852A18CA4800ED65AC /* FeaturedViewController.storyboard */,
+				DEE2F6812A18CA2600ED65AC /* FeaturedViewController.swift */,
+			);
+			path = FeaturedViewController;
+			sourceTree = "<group>";
+		};
+		DEE2F6832A18CA2A00ED65AC /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewParts;
 			sourceTree = "<group>";
 		};
 		DEEAC19929F972BF00BCA5C9 /* HeaderSearchBarView */ = {
@@ -874,6 +896,7 @@
 				DE2EC19629C4BC8F00C52028 /* MainViewController.storyboard in Resources */,
 				DE3172EE29CD09080085C7FC /* FavoriteItemCollectionViewCell.xib in Resources */,
 				DE3172D029C9EB4B0085C7FC /* DetailItemViewController.storyboard in Resources */,
+				DEE2F6862A18CA4800ED65AC /* FeaturedViewController.storyboard in Resources */,
 				DE3172D529CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib in Resources */,
 				DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */,
 				DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */,
@@ -951,11 +974,12 @@
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
-				DEE2F67C2A18998D00ED65AC /* AnnouncementView.swift in Sources */,
+				DEE2F67E2A1899CA00ED65AC /* AnnouncementView.swift in Sources */,
 				DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */,
 				DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */,
+				DEE2F6822A18CA2600ED65AC /* FeaturedViewController.swift in Sources */,
 				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,

@@ -15,6 +15,7 @@ final class GlobalTabBarController: UITabBarController {
     enum TabBarItems: CaseIterable {
 
         case main
+        case featured
         case search
         case favorite
         case setting
@@ -25,7 +26,9 @@ final class GlobalTabBarController: UITabBarController {
         func getTitle() -> String {
             switch self {
             case .main:
-                return "ファッション集め"
+                return "ホーム"
+            case .featured:
+                return "特集"
             case .search:
                 return "アイテム検索"
             case .favorite:
@@ -40,6 +43,8 @@ final class GlobalTabBarController: UITabBarController {
             switch self {
             case .main:
                 return "books.vertical.circle.fill"
+            case .featured:
+                return "list.bullet.clipboard.fill"
             case .search:
                 return "magnifyingglass.circle"
             case .favorite:
@@ -104,19 +109,23 @@ final class GlobalTabBarController: UITabBarController {
         // (1) MainViewController
         let mainViewController = UIStoryboard(name: "MainViewController", bundle: nil)
             .instantiateInitialViewController()!.applyNavigationController()
-        // (2) SearchItemViewController
+        // (2) FeaturedViewController
+        let featuredViewController = UIStoryboard(name: "FeaturedViewController", bundle: nil)
+            .instantiateInitialViewController()!.applyNavigationController()
+        // (3) SearchItemViewController
         let searchItemViewController = UIStoryboard(name: "SearchItemViewController", bundle: nil)
             .instantiateInitialViewController()!.applyNavigationController()
-        // (3) FavoriteItemViewController
+        // (4) FavoriteItemViewController
         let favoriteItemViewController = UIStoryboard(name: "FavoriteItemViewController", bundle: nil)
             .instantiateInitialViewController()!.applyNavigationController()
-        // (4) SettingViewController
+        // (5) SettingViewController
         let settingViewController = UIStoryboard(name: "SettingViewController", bundle: nil)
             .instantiateInitialViewController()!.applyNavigationController()
 
         // MEMO: 各画面の土台となるUINavigationControllerをセットする
         self.viewControllers = [
             mainViewController,
+            featuredViewController,
             searchItemViewController,
             favoriteItemViewController,
             settingViewController
