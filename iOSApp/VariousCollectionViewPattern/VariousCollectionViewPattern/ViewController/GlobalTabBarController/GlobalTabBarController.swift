@@ -30,7 +30,7 @@ final class GlobalTabBarController: UITabBarController {
             case .featured:
                 return "特集"
             case .search:
-                return "アイテム検索"
+                return "料理検索"
             case .favorite:
                 return "お気に入り"
             case .setting:
