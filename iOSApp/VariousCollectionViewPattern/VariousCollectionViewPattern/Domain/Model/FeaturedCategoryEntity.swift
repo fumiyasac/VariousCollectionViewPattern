@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+struct FeaturedCategoryEntity {
+
+    // MARK: - Property
+    
+    let id: Int
+    let name: String
+
+    // MARK: - Initializer
+
+    init(id: Int, name: String) {
+        self.id = id
+        self.name = name
+    }
+}
