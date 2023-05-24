@@ -69,6 +69,7 @@
 		DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730529D1C3150085C7FC /* ApiClientManager.swift */; };
 		DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730829D471FC0085C7FC /* MainViewModel.swift */; };
 		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
+		DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */; };
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
 		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
 		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
@@ -192,6 +193,7 @@
 		DE31730529D1C3150085C7FC /* ApiClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientManager.swift; sourceTree = "<group>"; };
 		DE31730829D471FC0085C7FC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewModel.swift; sourceTree = "<group>"; };
+		DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCategoryEntity.swift; sourceTree = "<group>"; };
 		DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewModel.swift; sourceTree = "<group>"; };
 		DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
@@ -615,6 +617,20 @@
 			path = Keychain;
 			sourceTree = "<group>";
 		};
+		DE749E312A1CB49100C54331 /* CarouselTabView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CarouselTabView;
+			sourceTree = "<group>";
+		};
+		DE749E322A1CB4A300C54331 /* CarouselContentView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CarouselContentView;
+			sourceTree = "<group>";
+		};
 		DEB7454729D5AA4D00AB18FC /* Domain */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,6 +645,7 @@
 			isa = PBXGroup;
 			children = (
 				DEC576F929F0AF6F000C28B5 /* AnnouncementEntity.swift */,
+				DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */,
 				DEC576F729F0AF55000C28B5 /* FeaturedContentsEntity.swift */,
 				DEC576F529F0AE4F000C28B5 /* PickupContentsEntity.swift */,
 				DEC576F329F0AE3E000C28B5 /* SpecialBannerEntity.swift */,
@@ -758,6 +775,8 @@
 		DEE2F6832A18CA2A00ED65AC /* ViewParts */ = {
 			isa = PBXGroup;
 			children = (
+				DE749E322A1CB4A300C54331 /* CarouselContentView */,
+				DE749E312A1CB49100C54331 /* CarouselTabView */,
 				DEE2F6892A197CB300ED65AC /* InfiniteCarouselTabViewController.storyboard */,
 				DEE2F68B2A197CC000ED65AC /* InfiniteCarouselCollectionViewController.swift */,
 			);
@@ -1016,6 +1035,7 @@
 				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
 				DEC576F629F0AE4F000C28B5 /* PickupContentsEntity.swift in Sources */,
+				DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */,
 				DEC576E429EAE124000C28B5 /* MainPickupContentsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
