@@ -16,13 +16,61 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99K-h2-ZCF">
+                                <rect key="frame" x="0.0" y="59" width="393" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="vjA-Sm-EN3"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="dku-Zx-fLF" kind="embed" id="uyW-kx-E8a"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DYs-HH-xdr">
+                                <rect key="frame" x="0.0" y="111" width="393" height="707"/>
+                                <connections>
+                                    <segue destination="cl6-qD-X0w" kind="embed" id="jGy-BZ-QbC"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="99K-h2-ZCF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="2B5-Wx-Kw3"/>
+                            <constraint firstItem="DYs-HH-xdr" firstAttribute="top" secondItem="99K-h2-ZCF" secondAttribute="bottom" id="Fty-Fo-wjH"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="99K-h2-ZCF" secondAttribute="trailing" id="PFc-Qb-7yh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DYs-HH-xdr" secondAttribute="trailing" id="Shz-Eb-xDV"/>
+                            <constraint firstItem="99K-h2-ZCF" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="efy-ID-oW4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="DYs-HH-xdr" secondAttribute="bottom" id="mV3-Z8-NOb"/>
+                            <constraint firstItem="DYs-HH-xdr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="paS-uS-aCU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="-2"/>
+            <point key="canvasLocation" x="29.770992366412212" y="-2.1126760563380285"/>
+        </scene>
+        <!--Carousel Tab View Controller-->
+        <scene sceneID="4A3-wV-cxD">
+            <objects>
+                <viewController id="dku-Zx-fLF" customClass="CarouselTabViewController" customModule="VariousCollectionViewPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ddg-4a-HCL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="52"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJg-P6-79H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="-286"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="mzQ-u0-qjw">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="cl6-qD-X0w" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59V-UF-JW7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="50"/>
         </scene>
     </scenes>
     <resources>

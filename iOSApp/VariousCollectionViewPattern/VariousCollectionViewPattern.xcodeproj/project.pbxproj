@@ -71,6 +71,7 @@
 		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
 		DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */; };
 		DE749E372A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */; };
+		DE749E392A20E1AF00C54331 /* CarouselTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */; };
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
 		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
 		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
@@ -196,6 +197,7 @@
 		DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewModel.swift; sourceTree = "<group>"; };
 		DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCategoryEntity.swift; sourceTree = "<group>"; };
 		DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabCollectionViewLayout.swift; sourceTree = "<group>"; };
+		DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabViewController.swift; sourceTree = "<group>"; };
 		DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewModel.swift; sourceTree = "<group>"; };
 		DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
@@ -623,6 +625,7 @@
 			isa = PBXGroup;
 			children = (
 				DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */,
+				DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */,
 			);
 			path = CarouselTabView;
 			sourceTree = "<group>";
@@ -1016,6 +1019,7 @@
 				DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */,
 				DEC576EE29ED7FB2000C28B5 /* PickupContentsTransition.swift in Sources */,
 				DEC576E229EAA95A000C28B5 /* MainFeaturedContentsRepository.swift in Sources */,
+				DE749E392A20E1AF00C54331 /* CarouselTabViewController.swift in Sources */,
 				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
