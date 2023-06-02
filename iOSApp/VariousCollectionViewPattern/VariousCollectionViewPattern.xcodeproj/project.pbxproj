@@ -72,6 +72,8 @@
 		DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */; };
 		DE749E372A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */; };
 		DE749E392A20E1AF00C54331 /* CarouselTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */; };
+		DE749E512A29E52A00C54331 /* CarouselTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4F2A29E52A00C54331 /* CarouselTabCollectionViewCell.swift */; };
+		DE749E522A29E52A00C54331 /* CarouselTabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */; };
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
 		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
 		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
@@ -198,6 +200,8 @@
 		DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCategoryEntity.swift; sourceTree = "<group>"; };
 		DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabCollectionViewLayout.swift; sourceTree = "<group>"; };
 		DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabViewController.swift; sourceTree = "<group>"; };
+		DE749E4F2A29E52A00C54331 /* CarouselTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselTabCollectionViewCell.xib; sourceTree = "<group>"; };
 		DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewModel.swift; sourceTree = "<group>"; };
 		DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
@@ -624,6 +628,7 @@
 		DE749E312A1CB49100C54331 /* CarouselTabView */ = {
 			isa = PBXGroup;
 			children = (
+				DE749E4E2A29E50E00C54331 /* CarouselTabCollectionViewCell */,
 				DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */,
 				DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */,
 			);
@@ -635,6 +640,15 @@
 			children = (
 			);
 			path = CarouselContentView;
+			sourceTree = "<group>";
+		};
+		DE749E4E2A29E50E00C54331 /* CarouselTabCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE749E4F2A29E52A00C54331 /* CarouselTabCollectionViewCell.swift */,
+				DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */,
+			);
+			path = CarouselTabCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		DEB7454729D5AA4D00AB18FC /* Domain */ = {
@@ -938,6 +952,7 @@
 				DE3172E429CB46810085C7FC /* GalleryGridMainCollectionViewCell.xib in Resources */,
 				DE3172E929CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.xib in Resources */,
 				DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */,
+				DE749E522A29E52A00C54331 /* CarouselTabCollectionViewCell.xib in Resources */,
 				DE3172F329CD09910085C7FC /* SettingItemCollectionViewCell.xib in Resources */,
 				DE2EC21029C9842A00C52028 /* FavoriteItemViewController.storyboard in Resources */,
 				DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */,
@@ -1015,6 +1030,7 @@
 				DEE2F6822A18CA2600ED65AC /* FeaturedViewController.swift in Sources */,
 				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
+				DE749E512A29E52A00C54331 /* CarouselTabCollectionViewCell.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
 				DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */,
 				DEC576EE29ED7FB2000C28B5 /* PickupContentsTransition.swift in Sources */,
