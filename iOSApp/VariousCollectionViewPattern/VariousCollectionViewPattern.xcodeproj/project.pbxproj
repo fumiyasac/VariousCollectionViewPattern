@@ -74,6 +74,8 @@
 		DE749E392A20E1AF00C54331 /* CarouselTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */; };
 		DE749E512A29E52A00C54331 /* CarouselTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4F2A29E52A00C54331 /* CarouselTabCollectionViewCell.swift */; };
 		DE749E522A29E52A00C54331 /* CarouselTabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */; };
+		DE749E542A2E01C400C54331 /* CarouselContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE749E532A2E01C400C54331 /* CarouselContentViewController.storyboard */; };
+		DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E552A2E01D800C54331 /* CarouselContentViewController.swift */; };
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
 		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
 		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
@@ -202,6 +204,8 @@
 		DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabViewController.swift; sourceTree = "<group>"; };
 		DE749E4F2A29E52A00C54331 /* CarouselTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselTabCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE749E532A2E01C400C54331 /* CarouselContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarouselContentViewController.storyboard; sourceTree = "<group>"; };
+		DE749E552A2E01D800C54331 /* CarouselContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselContentViewController.swift; sourceTree = "<group>"; };
 		DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewModel.swift; sourceTree = "<group>"; };
 		DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
@@ -638,6 +642,8 @@
 		DE749E322A1CB4A300C54331 /* CarouselContentView */ = {
 			isa = PBXGroup;
 			children = (
+				DE749E532A2E01C400C54331 /* CarouselContentViewController.storyboard */,
+				DE749E552A2E01D800C54331 /* CarouselContentViewController.swift */,
 			);
 			path = CarouselContentView;
 			sourceTree = "<group>";
@@ -958,6 +964,7 @@
 				DEEAC19D29F9731F00BCA5C9 /* HeaderSearchBarView.xib in Resources */,
 				DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */,
 				DE3172DF29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.xib in Resources */,
+				DE749E542A2E01C400C54331 /* CarouselContentViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1020,6 +1027,7 @@
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
 				DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */,
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
+				DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */,
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DEE2F67E2A1899CA00ED65AC /* AnnouncementView.swift in Sources */,
