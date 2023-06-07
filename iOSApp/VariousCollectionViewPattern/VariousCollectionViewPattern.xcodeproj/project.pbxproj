@@ -319,6 +319,7 @@
 				DE2EC1C529C724A000C52028 /* DependencyInjection */,
 				DEB7454729D5AA4D00AB18FC /* Domain */,
 				DE2EC1C429C7248E00C52028 /* Extension */,
+				DE749E572A30BFC000C54331 /* InternalData */,
 				DE2EC1C229C723EB00C52028 /* Managaer */,
 				DE2EC1C029C722A400C52028 /* View */,
 				DE2EC1C329C7248400C52028 /* ViewController */,
@@ -655,6 +656,21 @@
 				DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */,
 			);
 			path = CarouselTabCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DE749E572A30BFC000C54331 /* InternalData */ = {
+			isa = PBXGroup;
+			children = (
+				DE749E582A30BFCE00C54331 /* FeaturedCategory */,
+			);
+			path = InternalData;
+			sourceTree = "<group>";
+		};
+		DE749E582A30BFCE00C54331 /* FeaturedCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FeaturedCategory;
 			sourceTree = "<group>";
 		};
 		DEB7454729D5AA4D00AB18FC /* Domain */ = {
