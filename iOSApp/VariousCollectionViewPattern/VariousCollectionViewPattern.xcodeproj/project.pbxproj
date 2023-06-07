@@ -76,6 +76,7 @@
 		DE749E522A29E52A00C54331 /* CarouselTabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */; };
 		DE749E542A2E01C400C54331 /* CarouselContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE749E532A2E01C400C54331 /* CarouselContentViewController.storyboard */; };
 		DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E552A2E01D800C54331 /* CarouselContentViewController.swift */; };
+		DE749E5B2A30C09D00C54331 /* AnimatedCollectionViewLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E5A2A30C09D00C54331 /* AnimatedCollectionViewLayout */; };
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
 		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
 		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
@@ -262,6 +263,7 @@
 				DE2EC1D129C7276100C52028 /* RealmSwift in Frameworks */,
 				DE2EC1CF29C7276100C52028 /* Realm in Frameworks */,
 				DE2EC1CC29C7270100C52028 /* KeychainAccess in Frameworks */,
+				DE749E5B2A30C09D00C54331 /* AnimatedCollectionViewLayout in Frameworks */,
 				DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -856,6 +858,7 @@
 				DE2EC1CE29C7276100C52028 /* Realm */,
 				DE2EC1D029C7276100C52028 /* RealmSwift */,
 				DE2EC1EE29C8A3B900C52028 /* Cosmos */,
+				DE749E5A2A30C09D00C54331 /* AnimatedCollectionViewLayout */,
 			);
 			productName = VariousCollectionViewPattern;
 			productReference = DE2EC18B29C4BC8F00C52028 /* VariousCollectionViewPattern.app */;
@@ -941,6 +944,7 @@
 				DE2EC1ED29C8A3B900C52028 /* XCRemoteSwiftPackageReference "Cosmos" */,
 				DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */,
 				DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */,
+				DE749E592A30C09D00C54331 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -1476,6 +1480,14 @@
 				minimumVersion = 0.10.0;
 			};
 		};
+		DE749E592A30C09D00C54331 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KelvinJin/AnimatedCollectionViewLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1518,6 +1530,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */;
 			productName = CombineExpectations;
+		};
+		DE749E5A2A30C09D00C54331 /* AnimatedCollectionViewLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE749E592A30C09D00C54331 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */;
+			productName = AnimatedCollectionViewLayout;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
