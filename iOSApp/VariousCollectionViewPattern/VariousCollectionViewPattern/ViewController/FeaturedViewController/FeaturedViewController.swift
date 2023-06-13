@@ -9,6 +9,12 @@ import UIKit
 
 final class FeaturedViewController: UIViewController {
 
+    // MARK: - Initializer
+
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+
     // MARK: - Override
 
     override func viewDidLoad() {

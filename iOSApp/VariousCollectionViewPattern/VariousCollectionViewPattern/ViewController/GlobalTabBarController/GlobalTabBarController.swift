@@ -100,35 +100,64 @@ final class GlobalTabBarController: UITabBarController {
 
     // UITabBarControllerの初期設定に関する調整
     private func setupGlobalTabBarController() {
-
+        
         // MEMO: UITabBarControllerDelegateの宣言
         self.delegate = self
-
+        
         // MEMO: Storyboardを利用したDI処理を実施する
         // https://qiita.com/shtnkgm/items/cad6f52c489612628fd4
         // (1) MainViewController
-        let mainViewController = UIStoryboard(name: "MainViewController", bundle: nil)
-            .instantiateInitialViewController()!.applyNavigationController()
+        let mainViewController = UIStoryboard(name: TypeScanner.getName(MainViewController.self), bundle: nil)
+            .instantiateInitialViewController { coder in
+                MainViewController(coder: coder)
+            }
+        guard let mainViewController = mainViewController else {
+            assertionFailure("MainViewController is nil")
+            return
+        }
         // (2) FeaturedViewController
-        let featuredViewController = UIStoryboard(name: "FeaturedViewController", bundle: nil)
-            .instantiateInitialViewController()!.applyNavigationController()
+        let featuredViewController = UIStoryboard(name: TypeScanner.getName(FeaturedViewController.self), bundle: nil)
+            .instantiateInitialViewController { coder in
+                FeaturedViewController(coder: coder)
+            }
+        guard let featuredViewController = featuredViewController else {
+            assertionFailure("FeaturedViewController is nil")
+            return
+        }
         // (3) SearchItemViewController
-        let searchItemViewController = UIStoryboard(name: "SearchItemViewController", bundle: nil)
-            .instantiateInitialViewController()!.applyNavigationController()
+        let searchItemViewController = UIStoryboard(name: TypeScanner.getName(SearchItemViewController.self), bundle: nil)
+            .instantiateInitialViewController { coder in
+                SearchItemViewController(coder: coder)
+            }
+        guard let searchItemViewController = searchItemViewController else {
+            assertionFailure("SearchItemViewController is nil")
+            return
+        }
         // (4) FavoriteItemViewController
-        let favoriteItemViewController = UIStoryboard(name: "FavoriteItemViewController", bundle: nil)
-            .instantiateInitialViewController()!.applyNavigationController()
+        let favoriteItemViewController = UIStoryboard(name: TypeScanner.getName(FavoriteItemViewController.self), bundle: nil)
+            .instantiateInitialViewController { coder in
+                FavoriteItemViewController(coder: coder)
+            }
+        guard let favoriteItemViewController = favoriteItemViewController else {
+            assertionFailure("FavoriteItemViewController is nil")
+            return
+        }
         // (5) SettingViewController
-        let settingViewController = UIStoryboard(name: "SettingViewController", bundle: nil)
-            .instantiateInitialViewController()!.applyNavigationController()
-
+        let settingViewController = UIStoryboard(name: TypeScanner.getName(SettingViewController.self), bundle: nil)
+            .instantiateInitialViewController { coder in
+                SettingViewController(coder: coder)
+            }
+        guard let settingViewController = settingViewController else {
+            assertionFailure("SettingViewController is nil")
+            return
+        }
         // MEMO: 各画面の土台となるUINavigationControllerをセットする
         self.viewControllers = [
-            mainViewController,
-            featuredViewController,
-            searchItemViewController,
-            favoriteItemViewController,
-            settingViewController
+            mainViewController.applyNavigationController(),
+            featuredViewController.applyNavigationController(),
+            searchItemViewController.applyNavigationController(),
+            favoriteItemViewController.applyNavigationController(),
+            settingViewController.applyNavigationController()
         ]
 
         // MEMO: タブの選択時・非選択時の色とアイコンのサイズを決める
