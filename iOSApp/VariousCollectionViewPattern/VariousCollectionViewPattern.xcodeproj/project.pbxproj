@@ -78,6 +78,7 @@
 		DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E552A2E01D800C54331 /* CarouselContentViewController.swift */; };
 		DE749E5B2A30C09D00C54331 /* AnimatedCollectionViewLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E5A2A30C09D00C54331 /* AnimatedCollectionViewLayout */; };
 		DE749E5D2A33641300C54331 /* AnnouncementListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E5C2A33641300C54331 /* AnnouncementListRepository.swift */; };
+		DE749E5F2A38AC3C00C54331 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E5E2A38AC3C00C54331 /* AuthenticationRepository.swift */; };
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
 		DEB7454D29D5AAD300AB18FC /* FavoriteItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */; };
 		DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */; };
@@ -111,7 +112,6 @@
 		DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770629F376A4000C28B5 /* MainItemRepository.swift */; };
 		DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */; };
 		DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */; };
-		DEE2F6702A14D6A700ED65AC /* MainUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */; };
 		DEE2F6722A158CC400ED65AC /* ShowcaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */; };
 		DEE2F6752A1714A600ED65AC /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */; };
 		DEE2F6772A17169D00ED65AC /* AuthenticationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */; };
@@ -209,6 +209,7 @@
 		DE749E532A2E01C400C54331 /* CarouselContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarouselContentViewController.storyboard; sourceTree = "<group>"; };
 		DE749E552A2E01D800C54331 /* CarouselContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselContentViewController.swift; sourceTree = "<group>"; };
 		DE749E5C2A33641300C54331 /* AnnouncementListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementListRepository.swift; sourceTree = "<group>"; };
+		DE749E5E2A38AC3C00C54331 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
 		DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		DEB7454C29D5AAD300AB18FC /* FavoriteItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemViewModel.swift; sourceTree = "<group>"; };
 		DEB7454E29D5AAF500AB18FC /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
@@ -242,7 +243,6 @@
 		DEC5770629F376A4000C28B5 /* MainItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemRepository.swift; sourceTree = "<group>"; };
 		DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
 		DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
-		DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUseCase.swift; sourceTree = "<group>"; };
 		DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseDetailView.swift; sourceTree = "<group>"; };
 		DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationViewController.storyboard; sourceTree = "<group>"; };
@@ -682,7 +682,6 @@
 			children = (
 				DEB7454829D5AA5700AB18FC /* Model */,
 				DEB7454929D5AA5D00AB18FC /* Repository */,
-				DEE2F66E2A14D69200ED65AC /* UseCase */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -706,6 +705,7 @@
 			isa = PBXGroup;
 			children = (
 				DE749E5C2A33641300C54331 /* AnnouncementListRepository.swift */,
+				DE749E5E2A38AC3C00C54331 /* AuthenticationRepository.swift */,
 				DEB7455129D632E600AB18FC /* FavoriteItemRepository.swift */,
 				DEB7455629DDB9F200AB18FC /* ShowCaseRepository.swift */,
 				DEB7455829DF0C0100AB18FC /* DetailItemRepository.swift */,
@@ -782,14 +782,6 @@
 				DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */,
 			);
 			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		DEE2F66E2A14D69200ED65AC /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F66F2A14D6A700ED65AC /* MainUseCase.swift */,
-			);
-			path = UseCase;
 			sourceTree = "<group>";
 		};
 		DEE2F6732A17148800ED65AC /* AuthenticationViewController */ = {
@@ -1051,6 +1043,7 @@
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
 				DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */,
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
+				DE749E5F2A38AC3C00C54331 /* AuthenticationRepository.swift in Sources */,
 				DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */,
 				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
@@ -1075,7 +1068,6 @@
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
 				DEE2F68C2A197CC000ED65AC /* InfiniteCarouselCollectionViewController.swift in Sources */,
 				DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */,
-				DEE2F6702A14D6A700ED65AC /* MainUseCase.swift in Sources */,
 				DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */,
 				DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
