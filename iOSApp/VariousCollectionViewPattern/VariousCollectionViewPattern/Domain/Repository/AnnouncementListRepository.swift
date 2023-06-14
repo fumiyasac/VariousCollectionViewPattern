@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+protocol AnnouncementListRepository {}
+
+final class AnnouncementListRepositoryImpl: AnnouncementListRepository {
+    
+}
