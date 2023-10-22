@@ -2,7 +2,7 @@
 //  UIViewControllerExtension.swift
 //  VariousCollectionViewPattern
 //
-//  Created by 酒井文也 on 2023/03/20.
+//  Created by 酒井文也 on 2023/10/22.
 //
 
 import Foundation

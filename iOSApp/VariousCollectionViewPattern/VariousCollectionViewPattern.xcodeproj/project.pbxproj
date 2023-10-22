@@ -21,15 +21,8 @@
 		DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */; };
 		DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D729C894D900C52028 /* Dependencies.swift */; };
 		DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */; };
-		DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */; };
-		DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */; };
-		DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */; };
-		DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */; };
-		DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E329C89B8400C52028 /* PortraitNavigationController.swift */; };
 		DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */; };
 		DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */; };
-		DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */; };
-		DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */; };
 		DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */; };
 		DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC20729C9832400C52028 /* GlobalTabBarController.swift */; };
 		DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC20A29C983D500C52028 /* SearchItemViewController.swift */; };
@@ -59,8 +52,18 @@
 		DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */; };
 		DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730829D471FC0085C7FC /* MainViewModel.swift */; };
 		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
-		DE6B2E3C2AE4BB6200BB5FFE /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E3B2AE4BB6200BB5FFE /* Apollo */; };
-		DE6B2E3F2AE4BE7300BB5FFE /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E3E2AE4BE7300BB5FFE /* KeychainAccess */; };
+		DE6B2E432AE52A9C00BB5FFE /* LocalStore in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E422AE52A9C00BB5FFE /* LocalStore */; };
+		DE6B2E452AE52AA000BB5FFE /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E442AE52AA000BB5FFE /* Networking */; };
+		DE6B2E4B2AE52F4800BB5FFE /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E4A2AE52F4800BB5FFE /* Entity */; };
+		DE6B2E652AE5320500BB5FFE /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E632AE5320500BB5FFE /* SwiftUIColorExtension.swift */; };
+		DE6B2E662AE5320500BB5FFE /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E642AE5320500BB5FFE /* FirstAppearExtension.swift */; };
+		DE6B2E6D2AE5321300BB5FFE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E672AE5321300BB5FFE /* UIViewControllerExtension.swift */; };
+		DE6B2E6E2AE5321300BB5FFE /* UICollectionViewCellRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E682AE5321300BB5FFE /* UICollectionViewCellRegistrable.swift */; };
+		DE6B2E6F2AE5321300BB5FFE /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E692AE5321300BB5FFE /* NSObjectProtocolExtension.swift */; };
+		DE6B2E702AE5321300BB5FFE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E6A2AE5321300BB5FFE /* UIColorExtension.swift */; };
+		DE6B2E712AE5321300BB5FFE /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E6B2AE5321300BB5FFE /* UINavigationControllerExtension.swift */; };
+		DE6B2E722AE5321300BB5FFE /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E6C2AE5321300BB5FFE /* UICollectionViewExtension.swift */; };
+		DE6B2E752AE5358500BB5FFE /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E732AE5351300BB5FFE /* PortraitNavigationController.swift */; };
 		DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */; };
 		DE749E372A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */; };
 		DE749E392A20E1AF00C54331 /* CarouselTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */; };
@@ -101,8 +104,6 @@
 		DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */; };
 		DEC5770529F3767F000C28B5 /* ItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770429F3767F000C28B5 /* ItemEntity.swift */; };
 		DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5770629F376A4000C28B5 /* MainItemRepository.swift */; };
-		DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */; };
-		DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */; };
 		DEE2F6722A158CC400ED65AC /* ShowcaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */; };
 		DEE2F6752A1714A600ED65AC /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */; };
 		DEE2F6772A17169D00ED65AC /* AuthenticationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */; };
@@ -149,15 +150,8 @@
 		DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabelFormatter.swift; sourceTree = "<group>"; };
 		DE2EC1D729C894D900C52028 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesDefinition.swift; sourceTree = "<group>"; };
-		DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
-		DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
-		DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		DE2EC1E329C89B8400C52028 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 		DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowScanner.swift; sourceTree = "<group>"; };
 		DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
-		DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
-		DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellRegistrable.swift; sourceTree = "<group>"; };
 		DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GlobalTabBarController.storyboard; sourceTree = "<group>"; };
 		DE2EC20729C9832400C52028 /* GlobalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarController.swift; sourceTree = "<group>"; };
 		DE2EC20A29C983D500C52028 /* SearchItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +181,18 @@
 		DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCollectionViewCell.xib; sourceTree = "<group>"; };
 		DE31730829D471FC0085C7FC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewModel.swift; sourceTree = "<group>"; };
+		DE6B2E402AE5299400BB5FFE /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		DE6B2E412AE52A1900BB5FFE /* LocalStore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LocalStore; sourceTree = "<group>"; };
+		DE6B2E462AE52B6000BB5FFE /* Entity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Entity; sourceTree = "<group>"; };
+		DE6B2E632AE5320500BB5FFE /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
+		DE6B2E642AE5320500BB5FFE /* FirstAppearExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
+		DE6B2E672AE5321300BB5FFE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DE6B2E682AE5321300BB5FFE /* UICollectionViewCellRegistrable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellRegistrable.swift; sourceTree = "<group>"; };
+		DE6B2E692AE5321300BB5FFE /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		DE6B2E6A2AE5321300BB5FFE /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DE6B2E6B2AE5321300BB5FFE /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		DE6B2E6C2AE5321300BB5FFE /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		DE6B2E732AE5351300BB5FFE /* PortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 		DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCategoryEntity.swift; sourceTree = "<group>"; };
 		DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabCollectionViewLayout.swift; sourceTree = "<group>"; };
 		DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabViewController.swift; sourceTree = "<group>"; };
@@ -227,8 +233,6 @@
 		DEC5770129F37646000C28B5 /* ItemMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		DEC5770429F3767F000C28B5 /* ItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEntity.swift; sourceTree = "<group>"; };
 		DEC5770629F376A4000C28B5 /* MainItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemRepository.swift; sourceTree = "<group>"; };
-		DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
-		DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 		DEE2F6712A158CC400ED65AC /* ShowcaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseDetailView.swift; sourceTree = "<group>"; };
 		DEE2F6742A1714A600ED65AC /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationViewController.storyboard; sourceTree = "<group>"; };
@@ -245,9 +249,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6B2E4B2AE52F4800BB5FFE /* Entity in Frameworks */,
+				DE6B2E452AE52AA000BB5FFE /* Networking in Frameworks */,
+				DE6B2E432AE52A9C00BB5FFE /* LocalStore in Frameworks */,
 				DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */,
-				DE6B2E3C2AE4BB6200BB5FFE /* Apollo in Frameworks */,
-				DE6B2E3F2AE4BE7300BB5FFE /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +305,9 @@
 				DE2EC19C29C4BC9000C52028 /* Info.plist */,
 				DE2EC18E29C4BC8F00C52028 /* AppDelegate.swift */,
 				DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */,
-				DE2EC1D429C8943C00C52028 /* Classes */,
+				DE2EC1D429C8943C00C52028 /* Common */,
 				DE2EC21829C9871A00C52028 /* CustomTransition */,
 				DEB7454729D5AA4D00AB18FC /* Domain */,
-				DE2EC1C429C7248E00C52028 /* Extension */,
 				DE2EC1C029C722A400C52028 /* View */,
 				DE2EC1C329C7248400C52028 /* ViewController */,
 				DE2EC1BE29C7227A00C52028 /* ViewModel */,
@@ -371,15 +375,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		DE2EC1C429C7248E00C52028 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F6692A14D49800ED65AC /* SwiftUI */,
-				DEE2F6682A14D0E200ED65AC /* UIKit */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		DE2EC1C529C724A000C52028 /* DependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,15 +394,13 @@
 			path = MainViewController;
 			sourceTree = "<group>";
 		};
-		DE2EC1D429C8943C00C52028 /* Classes */ = {
+		DE2EC1D429C8943C00C52028 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */,
-				DE2EC1E329C89B8400C52028 /* PortraitNavigationController.swift */,
-				DE2EC1D229C8942E00C52028 /* TypeScanner.swift */,
-				DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */,
+				DE6B2E4E2AE530FF00BB5FFE /* Classes */,
+				DE6B2E4F2AE5310A00BB5FFE /* Extensions */,
 			);
-			path = Classes;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		DE2EC20429C9828E00C52028 /* GlobalTabBarController */ = {
@@ -609,6 +602,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DE6B2E4E2AE530FF00BB5FFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B2E502AE5312000BB5FFE /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE6B2E4F2AE5310A00BB5FFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B2E512AE5312B00BB5FFE /* SwiftUI */,
+				DE6B2E522AE5313400BB5FFE /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DE6B2E502AE5312000BB5FFE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */,
+				DE2EC1D229C8942E00C52028 /* TypeScanner.swift */,
+				DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */,
+				DE6B2E732AE5351300BB5FFE /* PortraitNavigationController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DE6B2E512AE5312B00BB5FFE /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B2E642AE5320500BB5FFE /* FirstAppearExtension.swift */,
+				DE6B2E632AE5320500BB5FFE /* SwiftUIColorExtension.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		DE6B2E522AE5313400BB5FFE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B2E692AE5321300BB5FFE /* NSObjectProtocolExtension.swift */,
+				DE6B2E682AE5321300BB5FFE /* UICollectionViewCellRegistrable.swift */,
+				DE6B2E6C2AE5321300BB5FFE /* UICollectionViewExtension.swift */,
+				DE6B2E6A2AE5321300BB5FFE /* UIColorExtension.swift */,
+				DE6B2E6B2AE5321300BB5FFE /* UINavigationControllerExtension.swift */,
+				DE6B2E672AE5321300BB5FFE /* UIViewControllerExtension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		DE749E312A1CB49100C54331 /* CarouselTabView */ = {
 			isa = PBXGroup;
 			children = (
@@ -722,28 +765,6 @@
 			path = ItemMainCollectionViewCell;
 			sourceTree = "<group>";
 		};
-		DEE2F6682A14D0E200ED65AC /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				DE2EC1DB29C89AC200C52028 /* NSObjectProtocolExtension.swift */,
-				DE2EC1DD29C89AF700C52028 /* UIColorExtension.swift */,
-				DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */,
-				DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */,
-				DE2EC1DF29C89B2D00C52028 /* UINavigationControllerExtension.swift */,
-				DE2EC1E129C89B4600C52028 /* UIViewControllerExtension.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		DEE2F6692A14D49800ED65AC /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F66C2A14D4C800ED65AC /* FirstAppearExtension.swift */,
-				DEE2F66A2A14D4A400ED65AC /* SwiftUIColorExtension.swift */,
-			);
-			path = SwiftUI;
-			sourceTree = "<group>";
-		};
 		DEE2F6732A17148800ED65AC /* AuthenticationViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +805,9 @@
 		DEEEED732AE4AB2400EE3D87 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				DE6B2E462AE52B6000BB5FFE /* Entity */,
+				DE6B2E412AE52A1900BB5FFE /* LocalStore */,
+				DE6B2E402AE5299400BB5FFE /* Networking */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -806,8 +830,9 @@
 			name = VariousCollectionViewPattern;
 			packageProductDependencies = (
 				DE2EC1C829C725C000C52028 /* AlamofireImage */,
-				DE6B2E3B2AE4BB6200BB5FFE /* Apollo */,
-				DE6B2E3E2AE4BE7300BB5FFE /* KeychainAccess */,
+				DE6B2E422AE52A9C00BB5FFE /* LocalStore */,
+				DE6B2E442AE52AA000BB5FFE /* Networking */,
+				DE6B2E4A2AE52F4800BB5FFE /* Entity */,
 			);
 			productName = VariousCollectionViewPattern;
 			productReference = DE2EC18B29C4BC8F00C52028 /* VariousCollectionViewPattern.app */;
@@ -885,10 +910,8 @@
 			mainGroup = DE2EC18229C4BC8F00C52028;
 			packageReferences = (
 				DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
-				DE6B2E332AE4BA8E00BB5FFE /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DE6B2E342AE4BAF000BB5FFE /* XCRemoteSwiftPackageReference "Quick" */,
 				DE6B2E372AE4BB3400BB5FFE /* XCRemoteSwiftPackageReference "Nimble" */,
-				DE6B2E3D2AE4BE7300BB5FFE /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -952,6 +975,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6B2E752AE5358500BB5FFE /* PortraitNavigationController.swift in Sources */,
 				DE3172E329CB46810085C7FC /* GalleryGridMainCollectionViewCell.swift in Sources */,
 				DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */,
 				DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */,
@@ -963,7 +987,7 @@
 				DEC5770229F37646000C28B5 /* ItemMainCollectionViewCell.swift in Sources */,
 				DE749E5D2A33641300C54331 /* AnnouncementListRepository.swift in Sources */,
 				DEB7455729DDB9F200AB18FC /* ShowCaseRepository.swift in Sources */,
-				DE2EC1DC29C89AC200C52028 /* NSObjectProtocolExtension.swift in Sources */,
+				DE6B2E712AE5321300BB5FFE /* UINavigationControllerExtension.swift in Sources */,
 				DE3172D929CB45B80085C7FC /* HorizontalCarouselMainCollectionViewCell.swift in Sources */,
 				DE749E372A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift in Sources */,
 				DEC576E629EAE19D000C28B5 /* MainSpecialBannerRepository.swift in Sources */,
@@ -974,8 +998,8 @@
 				DE3172ED29CD09080085C7FC /* FavoriteItemCollectionViewCell.swift in Sources */,
 				DEE2F6752A1714A600ED65AC /* AuthenticationViewController.swift in Sources */,
 				DEC576DE29E82A08000C28B5 /* ShowCaseViewModel.swift in Sources */,
-				DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */,
 				DEB7455529D7B77100AB18FC /* ShowcaseView.swift in Sources */,
+				DE6B2E652AE5320500BB5FFE /* SwiftUIColorExtension.swift in Sources */,
 				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
 				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
@@ -984,13 +1008,13 @@
 				DEC576FA29F0AF6F000C28B5 /* AnnouncementEntity.swift in Sources */,
 				DE3172F229CD09910085C7FC /* SettingItemCollectionViewCell.swift in Sources */,
 				DE3172E829CB52550085C7FC /* FeaturedSectionCarouselMainCollectionViewCell.swift in Sources */,
-				DE2EC1E029C89B2D00C52028 /* UINavigationControllerExtension.swift in Sources */,
-				DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */,
 				DE3172FC29CEDE380085C7FC /* SearchResultCollectionViewCell.swift in Sources */,
 				DEC576E829EBF73E000C28B5 /* GalleryTransition.swift in Sources */,
+				DE6B2E662AE5320500BB5FFE /* FirstAppearExtension.swift in Sources */,
 				DE2EC21A29C9876800C52028 /* GlobalTabBarTransition.swift in Sources */,
 				DEB7455929DF0C0100AB18FC /* DetailItemRepository.swift in Sources */,
-				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
+				DE6B2E702AE5321300BB5FFE /* UIColorExtension.swift in Sources */,
+				DE6B2E722AE5321300BB5FFE /* UICollectionViewExtension.swift in Sources */,
 				DE749E5F2A38AC3C00C54331 /* AuthenticationRepository.swift in Sources */,
 				DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
@@ -998,8 +1022,8 @@
 				DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */,
-				DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */,
 				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
+				DE6B2E6F2AE5321300BB5FFE /* NSObjectProtocolExtension.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DE749E512A29E52A00C54331 /* CarouselTabCollectionViewCell.swift in Sources */,
 				DEC576DC29E2F97D000C28B5 /* MainGalleryGridPaginationRepository.swift in Sources */,
@@ -1015,7 +1039,6 @@
 				DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */,
 				DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
-				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
 				DEE2F6792A17177000ED65AC /* AuthenticationViewModel.swift in Sources */,
 				DEC576FE29F375B9000C28B5 /* ShowCaseEntity.swift in Sources */,
 				DEC5770529F3767F000C28B5 /* ItemEntity.swift in Sources */,
@@ -1023,12 +1046,12 @@
 				DEC576F829F0AF55000C28B5 /* FeaturedContentsEntity.swift in Sources */,
 				DEC576E029E8D125000C28B5 /* MainAnnouncementRepository.swift in Sources */,
 				DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */,
-				DEE2F66D2A14D4C800ED65AC /* FirstAppearExtension.swift in Sources */,
-				DE2EC1E429C89B8400C52028 /* PortraitNavigationController.swift in Sources */,
 				DE2EC19129C4BC8F00C52028 /* SceneDelegate.swift in Sources */,
+				DE6B2E6D2AE5321300BB5FFE /* UIViewControllerExtension.swift in Sources */,
 				DEC576F629F0AE4F000C28B5 /* PickupContentsEntity.swift in Sources */,
 				DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */,
 				DEC576E429EAE124000C28B5 /* MainPickupContentsRepository.swift in Sources */,
+				DE6B2E6E2AE5321300BB5FFE /* UICollectionViewCellRegistrable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1380,14 +1403,6 @@
 				kind = branch;
 			};
 		};
-		DE6B2E332AE4BA8E00BB5FFE /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.6.1;
-			};
-		};
 		DE6B2E342AE4BAF000BB5FFE /* XCRemoteSwiftPackageReference "Quick" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Quick.git";
@@ -1404,14 +1419,6 @@
 				minimumVersion = 13.0.0;
 			};
 		};
-		DE6B2E3D2AE4BE7300BB5FFE /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1420,15 +1427,17 @@
 			package = DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
 		};
-		DE6B2E3B2AE4BB6200BB5FFE /* Apollo */ = {
+		DE6B2E422AE52A9C00BB5FFE /* LocalStore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE6B2E332AE4BA8E00BB5FFE /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = Apollo;
+			productName = LocalStore;
 		};
-		DE6B2E3E2AE4BE7300BB5FFE /* KeychainAccess */ = {
+		DE6B2E442AE52AA000BB5FFE /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE6B2E3D2AE4BE7300BB5FFE /* XCRemoteSwiftPackageReference "KeychainAccess" */;
-			productName = KeychainAccess;
+			productName = Networking;
+		};
+		DE6B2E4A2AE52F4800BB5FFE /* Entity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entity;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

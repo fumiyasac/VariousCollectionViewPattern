@@ -2,7 +2,7 @@
 //  SwiftUIColorExtension.swift
 //  VariousCollectionViewPattern
 //
-//  Created by 酒井文也 on 2023/05/17.
+//  Created by 酒井文也 on 2023/10/22.
 //
 
 import SwiftUI
