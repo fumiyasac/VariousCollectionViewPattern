@@ -294,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				DE2EC18D29C4BC8F00C52028 /* VariousCollectionViewPattern */,
+				DEEEED732AE4AB2400EE3D87 /* Modules */,
 				DE2EC1A429C4BC9100C52028 /* VariousCollectionViewPatternTests */,
 				DE2EC1AE29C4BC9100C52028 /* VariousCollectionViewPatternUITests */,
 				DE2EC18C29C4BC8F00C52028 /* Products */,
@@ -829,6 +830,13 @@
 				DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */,
 			);
 			path = HeaderSearchBarView;
+			sourceTree = "<group>";
+		};
+		DEEEED732AE4AB2400EE3D87 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
