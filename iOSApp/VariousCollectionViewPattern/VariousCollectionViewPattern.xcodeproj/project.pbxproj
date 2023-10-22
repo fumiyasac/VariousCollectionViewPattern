@@ -298,14 +298,14 @@
 		DE2EC18D29C4BC8F00C52028 /* VariousCollectionViewPattern */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EC1D429C8943C00C52028 /* Common */,
 				DE2EC1C529C724A000C52028 /* DependencyInjection */,
-				DE6B2E322AE4B52900BB5FFE /* Root */,
 				DE6B2E312AE4B51D00BB5FFE /* LaunchScreen */,
 				DE6B2E302AE4B50A00BB5FFE /* Resource */,
+				DE6B2E322AE4B52900BB5FFE /* Root */,
 				DE2EC19C29C4BC9000C52028 /* Info.plist */,
 				DE2EC18E29C4BC8F00C52028 /* AppDelegate.swift */,
 				DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */,
-				DE2EC1D429C8943C00C52028 /* Common */,
 				DE2EC21829C9871A00C52028 /* CustomTransition */,
 				DEB7454729D5AA4D00AB18FC /* Domain */,
 				DE2EC1C029C722A400C52028 /* View */,
