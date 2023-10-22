@@ -17,9 +17,6 @@
 		DE2EC1B029C4BC9100C52028 /* VariousCollectionViewPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1AF29C4BC9100C52028 /* VariousCollectionViewPatternUITests.swift */; };
 		DE2EC1B229C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1B129C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift */; };
 		DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1C829C725C000C52028 /* AlamofireImage */; };
-		DE2EC1CC29C7270100C52028 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1CB29C7270100C52028 /* KeychainAccess */; };
-		DE2EC1CF29C7276100C52028 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1CE29C7276100C52028 /* Realm */; };
-		DE2EC1D129C7276100C52028 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1D029C7276100C52028 /* RealmSwift */; };
 		DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D229C8942E00C52028 /* TypeScanner.swift */; };
 		DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */; };
 		DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D729C894D900C52028 /* Dependencies.swift */; };
@@ -33,10 +30,6 @@
 		DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */; };
 		DE2EC1EA29C89CC700C52028 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E929C89CC700C52028 /* UICollectionViewExtension.swift */; };
 		DE2EC1EC29C89CE500C52028 /* UICollectionViewCellRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1EB29C89CE500C52028 /* UICollectionViewCellRegistrable.swift */; };
-		DE2EC1EF29C8A3B900C52028 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1EE29C8A3B900C52028 /* Cosmos */; };
-		DE2EC1FE29C8C0A700C52028 /* SwiftyMocky in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1FD29C8C0A700C52028 /* SwiftyMocky */; };
-		DE2EC20029C8C0A700C52028 /* swiftymocky in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1FF29C8C0A700C52028 /* swiftymocky */; };
-		DE2EC20329C8C0F100C52028 /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC20229C8C0F100C52028 /* CombineExpectations */; };
 		DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */; };
 		DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC20729C9832400C52028 /* GlobalTabBarController.swift */; };
 		DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC20A29C983D500C52028 /* SearchItemViewController.swift */; };
@@ -64,9 +57,6 @@
 		DE3172F329CD09910085C7FC /* SettingItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172F129CD09910085C7FC /* SettingItemCollectionViewCell.xib */; };
 		DE3172FC29CEDE380085C7FC /* SearchResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */; };
 		DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */; };
-		DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730129D074020085C7FC /* KeychainAccessManager.swift */; };
-		DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730329D075540085C7FC /* RealmAccessManager.swift */; };
-		DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730529D1C3150085C7FC /* ApiClientManager.swift */; };
 		DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730829D471FC0085C7FC /* MainViewModel.swift */; };
 		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
 		DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */; };
@@ -76,7 +66,6 @@
 		DE749E522A29E52A00C54331 /* CarouselTabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */; };
 		DE749E542A2E01C400C54331 /* CarouselContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE749E532A2E01C400C54331 /* CarouselContentViewController.storyboard */; };
 		DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E552A2E01D800C54331 /* CarouselContentViewController.swift */; };
-		DE749E5B2A30C09D00C54331 /* AnimatedCollectionViewLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E5A2A30C09D00C54331 /* AnimatedCollectionViewLayout */; };
 		DE749E5D2A33641300C54331 /* AnnouncementListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E5C2A33641300C54331 /* AnnouncementListRepository.swift */; };
 		DE749E5F2A38AC3C00C54331 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E5E2A38AC3C00C54331 /* AuthenticationRepository.swift */; };
 		DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7454A29D5AABA00AB18FC /* SettingViewModel.swift */; };
@@ -117,8 +106,6 @@
 		DEE2F6772A17169D00ED65AC /* AuthenticationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */; };
 		DEE2F6792A17177000ED65AC /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6782A17177000ED65AC /* AuthenticationViewModel.swift */; };
 		DEE2F67E2A1899CA00ED65AC /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F67D2A1899CA00ED65AC /* AnnouncementView.swift */; };
-		DEE2F6822A18CA2600ED65AC /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6812A18CA2600ED65AC /* FeaturedViewController.swift */; };
-		DEE2F6862A18CA4800ED65AC /* FeaturedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6852A18CA4800ED65AC /* FeaturedViewController.storyboard */; };
 		DEE2F68A2A197CB300ED65AC /* InfiniteCarouselTabViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6892A197CB300ED65AC /* InfiniteCarouselTabViewController.storyboard */; };
 		DEE2F68C2A197CC000ED65AC /* InfiniteCarouselCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F68B2A197CC000ED65AC /* InfiniteCarouselCollectionViewController.swift */; };
 		DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */; };
@@ -196,9 +183,6 @@
 		DE3172F129CD09910085C7FC /* SettingItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		DE3172FA29CEDE380085C7FC /* SearchResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCollectionViewCell.xib; sourceTree = "<group>"; };
-		DE31730129D074020085C7FC /* KeychainAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccessManager.swift; sourceTree = "<group>"; };
-		DE31730329D075540085C7FC /* RealmAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAccessManager.swift; sourceTree = "<group>"; };
-		DE31730529D1C3150085C7FC /* ApiClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientManager.swift; sourceTree = "<group>"; };
 		DE31730829D471FC0085C7FC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewModel.swift; sourceTree = "<group>"; };
 		DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCategoryEntity.swift; sourceTree = "<group>"; };
@@ -248,8 +232,6 @@
 		DEE2F6762A17169D00ED65AC /* AuthenticationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthenticationViewController.storyboard; sourceTree = "<group>"; };
 		DEE2F6782A17177000ED65AC /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		DEE2F67D2A1899CA00ED65AC /* AnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
-		DEE2F6812A18CA2600ED65AC /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
-		DEE2F6852A18CA4800ED65AC /* FeaturedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeaturedViewController.storyboard; sourceTree = "<group>"; };
 		DEE2F6892A197CB300ED65AC /* InfiniteCarouselTabViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfiniteCarouselTabViewController.storyboard; sourceTree = "<group>"; };
 		DEE2F68B2A197CC000ED65AC /* InfiniteCarouselCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarouselCollectionViewController.swift; sourceTree = "<group>"; };
 		DEEAC19A29F972EB00BCA5C9 /* HeaderSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBarView.swift; sourceTree = "<group>"; };
@@ -261,11 +243,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2EC1EF29C8A3B900C52028 /* Cosmos in Frameworks */,
-				DE2EC1D129C7276100C52028 /* RealmSwift in Frameworks */,
-				DE2EC1CF29C7276100C52028 /* Realm in Frameworks */,
-				DE2EC1CC29C7270100C52028 /* KeychainAccess in Frameworks */,
-				DE749E5B2A30C09D00C54331 /* AnimatedCollectionViewLayout in Frameworks */,
 				DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +251,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2EC20029C8C0A700C52028 /* swiftymocky in Frameworks */,
-				DE2EC20329C8C0F100C52028 /* CombineExpectations in Frameworks */,
-				DE2EC1FE29C8C0A700C52028 /* SwiftyMocky in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,18 +288,17 @@
 		DE2EC18D29C4BC8F00C52028 /* VariousCollectionViewPattern */ = {
 			isa = PBXGroup;
 			children = (
+				DE2EC1C529C724A000C52028 /* DependencyInjection */,
+				DE6B2E322AE4B52900BB5FFE /* Root */,
+				DE6B2E312AE4B51D00BB5FFE /* LaunchScreen */,
+				DE6B2E302AE4B50A00BB5FFE /* Resource */,
 				DE2EC19C29C4BC9000C52028 /* Info.plist */,
 				DE2EC18E29C4BC8F00C52028 /* AppDelegate.swift */,
 				DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */,
-				DE2EC19729C4BC9000C52028 /* Assets.xcassets */,
-				DE2EC19929C4BC9000C52028 /* LaunchScreen.storyboard */,
 				DE2EC1D429C8943C00C52028 /* Classes */,
 				DE2EC21829C9871A00C52028 /* CustomTransition */,
-				DE2EC1C529C724A000C52028 /* DependencyInjection */,
 				DEB7454729D5AA4D00AB18FC /* Domain */,
 				DE2EC1C429C7248E00C52028 /* Extension */,
-				DE749E572A30BFC000C54331 /* InternalData */,
-				DE2EC1C229C723EB00C52028 /* Managaer */,
 				DE2EC1C029C722A400C52028 /* View */,
 				DE2EC1C329C7248400C52028 /* ViewController */,
 				DE2EC1BE29C7227A00C52028 /* ViewModel */,
@@ -379,20 +352,9 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		DE2EC1C229C723EB00C52028 /* Managaer */ = {
-			isa = PBXGroup;
-			children = (
-				DE3172FE29D073A80085C7FC /* Api */,
-				DE31730029D073BF0085C7FC /* Keychain */,
-				DE3172FF29D073B10085C7FC /* Realm */,
-			);
-			path = Managaer;
-			sourceTree = "<group>";
-		};
 		DE2EC1C329C7248400C52028 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DEE2F6802A18CA0700ED65AC /* FeaturedViewController */,
 				DEE2F6732A17148800ED65AC /* AuthenticationViewController */,
 				DE3172CC29C9C6EC0085C7FC /* DetailItemViewController */,
 				DE2EC21329C984C900C52028 /* SettingViewController */,
@@ -425,6 +387,7 @@
 		DE2EC1C629C7252E00C52028 /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DEE2F6832A18CA2A00ED65AC /* ViewParts */,
 				DE2EC19429C4BC8F00C52028 /* MainViewController.storyboard */,
 				DE2EC19229C4BC8F00C52028 /* MainViewController.swift */,
 			);
@@ -611,28 +574,27 @@
 			path = SearchResultCollectionViewCell;
 			sourceTree = "<group>";
 		};
-		DE3172FE29D073A80085C7FC /* Api */ = {
+		DE6B2E302AE4B50A00BB5FFE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				DE31730529D1C3150085C7FC /* ApiClientManager.swift */,
+				DE2EC19729C4BC9000C52028 /* Assets.xcassets */,
 			);
-			path = Api;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		DE3172FF29D073B10085C7FC /* Realm */ = {
+		DE6B2E312AE4B51D00BB5FFE /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
-				DE31730329D075540085C7FC /* RealmAccessManager.swift */,
+				DE2EC19929C4BC9000C52028 /* LaunchScreen.storyboard */,
 			);
-			path = Realm;
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
-		DE31730029D073BF0085C7FC /* Keychain */ = {
+		DE6B2E322AE4B52900BB5FFE /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				DE31730129D074020085C7FC /* KeychainAccessManager.swift */,
 			);
-			path = Keychain;
+			path = Root;
 			sourceTree = "<group>";
 		};
 		DE749E312A1CB49100C54331 /* CarouselTabView */ = {
@@ -661,21 +623,6 @@
 				DE749E502A29E52A00C54331 /* CarouselTabCollectionViewCell.xib */,
 			);
 			path = CarouselTabCollectionViewCell;
-			sourceTree = "<group>";
-		};
-		DE749E572A30BFC000C54331 /* InternalData */ = {
-			isa = PBXGroup;
-			children = (
-				DE749E582A30BFCE00C54331 /* FeaturedCategory */,
-			);
-			path = InternalData;
-			sourceTree = "<group>";
-		};
-		DE749E582A30BFCE00C54331 /* FeaturedCategory */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FeaturedCategory;
 			sourceTree = "<group>";
 		};
 		DEB7454729D5AA4D00AB18FC /* Domain */ = {
@@ -802,16 +749,6 @@
 			path = Announcement;
 			sourceTree = "<group>";
 		};
-		DEE2F6802A18CA0700ED65AC /* FeaturedViewController */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F6832A18CA2A00ED65AC /* ViewParts */,
-				DEE2F6852A18CA4800ED65AC /* FeaturedViewController.storyboard */,
-				DEE2F6812A18CA2600ED65AC /* FeaturedViewController.swift */,
-			);
-			path = FeaturedViewController;
-			sourceTree = "<group>";
-		};
 		DEE2F6832A18CA2A00ED65AC /* ViewParts */ = {
 			isa = PBXGroup;
 			children = (
@@ -857,11 +794,6 @@
 			name = VariousCollectionViewPattern;
 			packageProductDependencies = (
 				DE2EC1C829C725C000C52028 /* AlamofireImage */,
-				DE2EC1CB29C7270100C52028 /* KeychainAccess */,
-				DE2EC1CE29C7276100C52028 /* Realm */,
-				DE2EC1D029C7276100C52028 /* RealmSwift */,
-				DE2EC1EE29C8A3B900C52028 /* Cosmos */,
-				DE749E5A2A30C09D00C54331 /* AnimatedCollectionViewLayout */,
 			);
 			productName = VariousCollectionViewPattern;
 			productReference = DE2EC18B29C4BC8F00C52028 /* VariousCollectionViewPattern.app */;
@@ -882,9 +814,6 @@
 			);
 			name = VariousCollectionViewPatternTests;
 			packageProductDependencies = (
-				DE2EC1FD29C8C0A700C52028 /* SwiftyMocky */,
-				DE2EC1FF29C8C0A700C52028 /* swiftymocky */,
-				DE2EC20229C8C0F100C52028 /* CombineExpectations */,
 			);
 			productName = VariousCollectionViewPatternTests;
 			productReference = DE2EC1A129C4BC9100C52028 /* VariousCollectionViewPatternTests.xctest */;
@@ -942,12 +871,6 @@
 			mainGroup = DE2EC18229C4BC8F00C52028;
 			packageReferences = (
 				DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
-				DE2EC1CA29C7270100C52028 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
-				DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */,
-				DE2EC1ED29C8A3B900C52028 /* XCRemoteSwiftPackageReference "Cosmos" */,
-				DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */,
-				DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */,
-				DE749E592A30C09D00C54331 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -971,7 +894,6 @@
 				DE3172EE29CD09080085C7FC /* FavoriteItemCollectionViewCell.xib in Resources */,
 				DE3172D029C9EB4B0085C7FC /* DetailItemViewController.storyboard in Resources */,
 				DEE2F68A2A197CB300ED65AC /* InfiniteCarouselTabViewController.storyboard in Resources */,
-				DEE2F6862A18CA4800ED65AC /* FeaturedViewController.storyboard in Resources */,
 				DE3172D529CB45780085C7FC /* SnapCarouselMainCollectionViewCell.xib in Resources */,
 				DEC5770329F37646000C28B5 /* ItemMainCollectionViewCell.xib in Resources */,
 				DE2EC21529C984E100C52028 /* SettingViewController.storyboard in Resources */,
@@ -1053,14 +975,12 @@
 				DE2EC1DE29C89AF700C52028 /* UIColorExtension.swift in Sources */,
 				DE749E5F2A38AC3C00C54331 /* AuthenticationRepository.swift in Sources */,
 				DE749E562A2E01D800C54331 /* CarouselContentViewController.swift in Sources */,
-				DE31730229D074030085C7FC /* KeychainAccessManager.swift in Sources */,
 				DE2EC19329C4BC8F00C52028 /* MainViewController.swift in Sources */,
 				DEE2F67E2A1899CA00ED65AC /* AnnouncementView.swift in Sources */,
 				DEC576FC29F2B496000C28B5 /* GalleryEntity.swift in Sources */,
 				DE2EC21229C9843600C52028 /* FavoriteItemViewController.swift in Sources */,
 				DEEAC19B29F972EB00BCA5C9 /* HeaderSearchBarView.swift in Sources */,
 				DEE2F66B2A14D4A400ED65AC /* SwiftUIColorExtension.swift in Sources */,
-				DEE2F6822A18CA2600ED65AC /* FeaturedViewController.swift in Sources */,
 				DEC576EA29EBF760000C28B5 /* GalleryInteractor.swift in Sources */,
 				DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */,
 				DE749E512A29E52A00C54331 /* CarouselTabCollectionViewCell.swift in Sources */,
@@ -1069,14 +989,12 @@
 				DEC576EE29ED7FB2000C28B5 /* PickupContentsTransition.swift in Sources */,
 				DEC576E229EAA95A000C28B5 /* MainFeaturedContentsRepository.swift in Sources */,
 				DE749E392A20E1AF00C54331 /* CarouselTabViewController.swift in Sources */,
-				DE31730429D075540085C7FC /* RealmAccessManager.swift in Sources */,
 				DE2EC21729C984ED00C52028 /* SettingViewController.swift in Sources */,
 				DE2EC18F29C4BC8F00C52028 /* AppDelegate.swift in Sources */,
 				DEC576F229F02215000C28B5 /* SnapCarouselMainViewController.swift in Sources */,
 				DE3172CE29C9E7310085C7FC /* DetailItemViewController.swift in Sources */,
 				DEE2F68C2A197CC000ED65AC /* InfiniteCarouselCollectionViewController.swift in Sources */,
 				DEB7455D29E1658000AB18FC /* SettingRepository.swift in Sources */,
-				DE31730629D1C3150085C7FC /* ApiClientManager.swift in Sources */,
 				DEC576F029F021F9000C28B5 /* HorizontalCarouselMainViewController.swift in Sources */,
 				DEB7454F29D5AAF500AB18FC /* SearchItemViewModel.swift in Sources */,
 				DE2EC1E229C89B4600C52028 /* UIViewControllerExtension.swift in Sources */,
@@ -1198,7 +1116,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1252,7 +1170,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1276,7 +1194,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = GlobalTabBarController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1304,7 +1222,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = GlobalTabBarController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1444,54 +1362,6 @@
 				kind = branch;
 			};
 		};
-		DE2EC1CA29C7270100C52028 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		DE2EC1ED29C8A3B900C52028 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MakeAWishFoundation/SwiftyMocky.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.2.0;
-			};
-		};
-		DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/groue/CombineExpectations.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.10.0;
-			};
-		};
-		DE749E592A30C09D00C54331 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/KelvinJin/AnimatedCollectionViewLayout.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1499,46 +1369,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
-		};
-		DE2EC1CB29C7270100C52028 /* KeychainAccess */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC1CA29C7270100C52028 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
-			productName = KeychainAccess;
-		};
-		DE2EC1CE29C7276100C52028 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		DE2EC1D029C7276100C52028 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC1CD29C7276100C52028 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-		DE2EC1EE29C8A3B900C52028 /* Cosmos */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC1ED29C8A3B900C52028 /* XCRemoteSwiftPackageReference "Cosmos" */;
-			productName = Cosmos;
-		};
-		DE2EC1FD29C8C0A700C52028 /* SwiftyMocky */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */;
-			productName = SwiftyMocky;
-		};
-		DE2EC1FF29C8C0A700C52028 /* swiftymocky */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC1FC29C8C0A700C52028 /* XCRemoteSwiftPackageReference "SwiftyMocky" */;
-			productName = swiftymocky;
-		};
-		DE2EC20229C8C0F100C52028 /* CombineExpectations */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC20129C8C0F100C52028 /* XCRemoteSwiftPackageReference "CombineExpectations" */;
-			productName = CombineExpectations;
-		};
-		DE749E5A2A30C09D00C54331 /* AnimatedCollectionViewLayout */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE749E592A30C09D00C54331 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */;
-			productName = AnimatedCollectionViewLayout;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

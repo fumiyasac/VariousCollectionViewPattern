@@ -15,7 +15,6 @@ final class GlobalTabBarController: UITabBarController {
     enum TabBarItems: CaseIterable {
 
         case main
-        case featured
         case search
         case favorite
         case setting
@@ -27,8 +26,6 @@ final class GlobalTabBarController: UITabBarController {
             switch self {
             case .main:
                 return "ホーム"
-            case .featured:
-                return "特集"
             case .search:
                 return "料理検索"
             case .favorite:
@@ -43,8 +40,6 @@ final class GlobalTabBarController: UITabBarController {
             switch self {
             case .main:
                 return "books.vertical.circle.fill"
-            case .featured:
-                return "list.bullet.clipboard.fill"
             case .search:
                 return "magnifyingglass.circle"
             case .favorite:
@@ -115,16 +110,7 @@ final class GlobalTabBarController: UITabBarController {
             assertionFailure("MainViewController is nil")
             return
         }
-        // (2) FeaturedViewController
-        let featuredViewController = UIStoryboard(name: TypeScanner.getName(FeaturedViewController.self), bundle: nil)
-            .instantiateInitialViewController { coder in
-                FeaturedViewController(coder: coder)
-            }
-        guard let featuredViewController = featuredViewController else {
-            assertionFailure("FeaturedViewController is nil")
-            return
-        }
-        // (3) SearchItemViewController
+        // (2) SearchItemViewController
         let searchItemViewController = UIStoryboard(name: TypeScanner.getName(SearchItemViewController.self), bundle: nil)
             .instantiateInitialViewController { coder in
                 SearchItemViewController(coder: coder)
@@ -133,7 +119,7 @@ final class GlobalTabBarController: UITabBarController {
             assertionFailure("SearchItemViewController is nil")
             return
         }
-        // (4) FavoriteItemViewController
+        // (3) FavoriteItemViewController
         let favoriteItemViewController = UIStoryboard(name: TypeScanner.getName(FavoriteItemViewController.self), bundle: nil)
             .instantiateInitialViewController { coder in
                 FavoriteItemViewController(coder: coder)
@@ -142,7 +128,7 @@ final class GlobalTabBarController: UITabBarController {
             assertionFailure("FavoriteItemViewController is nil")
             return
         }
-        // (5) SettingViewController
+        // (4) SettingViewController
         let settingViewController = UIStoryboard(name: TypeScanner.getName(SettingViewController.self), bundle: nil)
             .instantiateInitialViewController { coder in
                 SettingViewController(coder: coder)
@@ -154,7 +140,6 @@ final class GlobalTabBarController: UITabBarController {
         // MEMO: 各画面の土台となるUINavigationControllerをセットする
         self.viewControllers = [
             mainViewController.applyNavigationController(),
-            featuredViewController.applyNavigationController(),
             searchItemViewController.applyNavigationController(),
             favoriteItemViewController.applyNavigationController(),
             settingViewController.applyNavigationController()
