@@ -59,6 +59,8 @@
 		DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */; };
 		DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730829D471FC0085C7FC /* MainViewModel.swift */; };
 		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
+		DE6B2E3C2AE4BB6200BB5FFE /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E3B2AE4BB6200BB5FFE /* Apollo */; };
+		DE6B2E3F2AE4BE7300BB5FFE /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E3E2AE4BE7300BB5FFE /* KeychainAccess */; };
 		DE749E342A1CC07400C54331 /* FeaturedCategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E332A1CC07400C54331 /* FeaturedCategoryEntity.swift */; };
 		DE749E372A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E362A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift */; };
 		DE749E392A20E1AF00C54331 /* CarouselTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E382A20E1AF00C54331 /* CarouselTabViewController.swift */; };
@@ -244,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */,
+				DE6B2E3C2AE4BB6200BB5FFE /* Apollo in Frameworks */,
+				DE6B2E3F2AE4BE7300BB5FFE /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +276,7 @@
 				DE2EC1A429C4BC9100C52028 /* VariousCollectionViewPatternTests */,
 				DE2EC1AE29C4BC9100C52028 /* VariousCollectionViewPatternUITests */,
 				DE2EC18C29C4BC8F00C52028 /* Products */,
+				DE6B2E3A2AE4BB6200BB5FFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -597,6 +602,13 @@
 			path = Root;
 			sourceTree = "<group>";
 		};
+		DE6B2E3A2AE4BB6200BB5FFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE749E312A1CB49100C54331 /* CarouselTabView */ = {
 			isa = PBXGroup;
 			children = (
@@ -794,6 +806,8 @@
 			name = VariousCollectionViewPattern;
 			packageProductDependencies = (
 				DE2EC1C829C725C000C52028 /* AlamofireImage */,
+				DE6B2E3B2AE4BB6200BB5FFE /* Apollo */,
+				DE6B2E3E2AE4BE7300BB5FFE /* KeychainAccess */,
 			);
 			productName = VariousCollectionViewPattern;
 			productReference = DE2EC18B29C4BC8F00C52028 /* VariousCollectionViewPattern.app */;
@@ -871,6 +885,10 @@
 			mainGroup = DE2EC18229C4BC8F00C52028;
 			packageReferences = (
 				DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				DE6B2E332AE4BA8E00BB5FFE /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				DE6B2E342AE4BAF000BB5FFE /* XCRemoteSwiftPackageReference "Quick" */,
+				DE6B2E372AE4BB3400BB5FFE /* XCRemoteSwiftPackageReference "Nimble" */,
+				DE6B2E3D2AE4BE7300BB5FFE /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -1362,6 +1380,38 @@
 				kind = branch;
 			};
 		};
+		DE6B2E332AE4BA8E00BB5FFE /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
+		DE6B2E342AE4BAF000BB5FFE /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.3.0;
+			};
+		};
+		DE6B2E372AE4BB3400BB5FFE /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+		DE6B2E3D2AE4BE7300BB5FFE /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1369,6 +1419,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
+		};
+		DE6B2E3B2AE4BB6200BB5FFE /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE6B2E332AE4BA8E00BB5FFE /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		DE6B2E3E2AE4BE7300BB5FFE /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE6B2E3D2AE4BE7300BB5FFE /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
