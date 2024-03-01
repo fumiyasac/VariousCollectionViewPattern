@@ -133,6 +133,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE1A75FC2B9218D600912224 /* UseCase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UseCase; sourceTree = "<group>"; };
+		DE1A75FD2B92190500912224 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
 		DE2EC18B29C4BC8F00C52028 /* VariousCollectionViewPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousCollectionViewPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2EC18E29C4BC8F00C52028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2EC19029C4BC8F00C52028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -805,6 +807,8 @@
 		DEEEED732AE4AB2400EE3D87 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				DE1A75FD2B92190500912224 /* Domain */,
+				DE1A75FC2B9218D600912224 /* UseCase */,
 				DE6B2E462AE52B6000BB5FFE /* Entity */,
 				DE6B2E412AE52A1900BB5FFE /* LocalStore */,
 				DE6B2E402AE5299400BB5FFE /* Networking */,
