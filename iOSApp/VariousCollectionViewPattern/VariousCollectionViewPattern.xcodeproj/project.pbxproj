@@ -19,8 +19,6 @@
 		DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1C829C725C000C52028 /* AlamofireImage */; };
 		DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D229C8942E00C52028 /* TypeScanner.swift */; };
 		DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */; };
-		DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D729C894D900C52028 /* Dependencies.swift */; };
-		DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */; };
 		DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */; };
 		DE2EC1E829C89C1C00C52028 /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */; };
 		DE2EC20629C982A900C52028 /* GlobalTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */; };
@@ -150,8 +148,6 @@
 		DE2EC1B129C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariousCollectionViewPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE2EC1D229C8942E00C52028 /* TypeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScanner.swift; sourceTree = "<group>"; };
 		DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabelFormatter.swift; sourceTree = "<group>"; };
-		DE2EC1D729C894D900C52028 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
-		DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesDefinition.swift; sourceTree = "<group>"; };
 		DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowScanner.swift; sourceTree = "<group>"; };
 		DE2EC1E729C89C1C00C52028 /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
 		DE2EC20529C982A900C52028 /* GlobalTabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GlobalTabBarController.storyboard; sourceTree = "<group>"; };
@@ -301,7 +297,6 @@
 			isa = PBXGroup;
 			children = (
 				DE2EC1D429C8943C00C52028 /* Common */,
-				DE2EC1C529C724A000C52028 /* DependencyInjection */,
 				DE6B2E312AE4B51D00BB5FFE /* LaunchScreen */,
 				DE6B2E302AE4B50A00BB5FFE /* Resource */,
 				DE6B2E322AE4B52900BB5FFE /* Root */,
@@ -375,15 +370,6 @@
 				DE2EC1C629C7252E00C52028 /* MainViewController */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		DE2EC1C529C724A000C52028 /* DependencyInjection */ = {
-			isa = PBXGroup;
-			children = (
-				DE2EC1D729C894D900C52028 /* Dependencies.swift */,
-				DE2EC1D929C8950100C52028 /* DependenciesDefinition.swift */,
-			);
-			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
 		DE2EC1C629C7252E00C52028 /* MainViewController */ = {
@@ -914,8 +900,7 @@
 			mainGroup = DE2EC18229C4BC8F00C52028;
 			packageReferences = (
 				DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
-				DE6B2E342AE4BAF000BB5FFE /* XCRemoteSwiftPackageReference "Quick" */,
-				DE6B2E372AE4BB3400BB5FFE /* XCRemoteSwiftPackageReference "Nimble" */,
+				DE3E7C442BA38B0E00F72294 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -985,7 +970,6 @@
 				DEC5770729F376A4000C28B5 /* MainItemRepository.swift in Sources */,
 				DEC576EC29ED7E95000C28B5 /* FeaturedContentsTransition.swift in Sources */,
 				DEE2F6722A158CC400ED65AC /* ShowcaseDetailView.swift in Sources */,
-				DE2EC1D829C894D900C52028 /* Dependencies.swift in Sources */,
 				DE2EC20829C9832400C52028 /* GlobalTabBarController.swift in Sources */,
 				DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */,
 				DEC5770229F37646000C28B5 /* ItemMainCollectionViewCell.swift in Sources */,
@@ -1006,7 +990,6 @@
 				DE6B2E652AE5320500BB5FFE /* SwiftUIColorExtension.swift in Sources */,
 				DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */,
 				DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */,
-				DE2EC1DA29C8950100C52028 /* DependenciesDefinition.swift in Sources */,
 				DE3172DE29CB46400085C7FC /* AnnouncementGroupCarouselMainCollectionViewCell.swift in Sources */,
 				DEC576F429F0AE3E000C28B5 /* SpecialBannerEntity.swift in Sources */,
 				DEC576FA29F0AF6F000C28B5 /* AnnouncementEntity.swift in Sources */,
@@ -1409,20 +1392,12 @@
 				kind = branch;
 			};
 		};
-		DE6B2E342AE4BAF000BB5FFE /* XCRemoteSwiftPackageReference "Quick" */ = {
+		DE3E7C442BA38B0E00F72294 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Quick.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 7.3.0;
-			};
-		};
-		DE6B2E372AE4BB3400BB5FFE /* XCRemoteSwiftPackageReference "Nimble" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Nimble.git";
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 13.0.0;
+				minimumVersion = 1.9.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
