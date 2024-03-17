@@ -50,6 +50,7 @@
 		DE3172FD29CEDE380085C7FC /* SearchResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */; };
 		DE31730929D471FC0085C7FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730829D471FC0085C7FC /* MainViewModel.swift */; };
 		DE31730B29D4777F0085C7FC /* DetailItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */; };
+		DE3E7C462BA6F12C00F72294 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3E7C452BA6F12C00F72294 /* StringExtension.swift */; };
 		DE6B2E432AE52A9C00BB5FFE /* LocalStore in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E422AE52A9C00BB5FFE /* LocalStore */; };
 		DE6B2E452AE52AA000BB5FFE /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E442AE52AA000BB5FFE /* Networking */; };
 		DE6B2E4B2AE52F4800BB5FFE /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = DE6B2E4A2AE52F4800BB5FFE /* Entity */; };
@@ -179,6 +180,7 @@
 		DE3172FB29CEDE380085C7FC /* SearchResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCollectionViewCell.xib; sourceTree = "<group>"; };
 		DE31730829D471FC0085C7FC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DE31730A29D4777F0085C7FC /* DetailItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemViewModel.swift; sourceTree = "<group>"; };
+		DE3E7C452BA6F12C00F72294 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		DE6B2E402AE5299400BB5FFE /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		DE6B2E412AE52A1900BB5FFE /* LocalStore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LocalStore; sourceTree = "<group>"; };
 		DE6B2E462AE52B6000BB5FFE /* Entity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Entity; sourceTree = "<group>"; };
@@ -636,6 +638,7 @@
 				DE6B2E6A2AE5321300BB5FFE /* UIColorExtension.swift */,
 				DE6B2E6B2AE5321300BB5FFE /* UINavigationControllerExtension.swift */,
 				DE6B2E672AE5321300BB5FFE /* UIViewControllerExtension.swift */,
+				DE3E7C452BA6F12C00F72294 /* StringExtension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -980,6 +983,7 @@
 				DE749E372A1F6BF200C54331 /* CarouselTabCollectionViewLayout.swift in Sources */,
 				DEC576E629EAE19D000C28B5 /* MainSpecialBannerRepository.swift in Sources */,
 				DEB7454B29D5AABA00AB18FC /* SettingViewModel.swift in Sources */,
+				DE3E7C462BA6F12C00F72294 /* StringExtension.swift in Sources */,
 				DEB7455229D632E600AB18FC /* FavoriteItemRepository.swift in Sources */,
 				DE3172D429CB45780085C7FC /* SnapCarouselMainCollectionViewCell.swift in Sources */,
 				DE2EC20B29C983D500C52028 /* SearchItemViewController.swift in Sources */,
