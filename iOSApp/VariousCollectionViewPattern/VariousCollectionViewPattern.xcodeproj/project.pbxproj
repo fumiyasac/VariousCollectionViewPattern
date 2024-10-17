@@ -16,7 +16,6 @@
 		DE2EC1A629C4BC9100C52028 /* VariousCollectionViewPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1A529C4BC9100C52028 /* VariousCollectionViewPatternTests.swift */; };
 		DE2EC1B029C4BC9100C52028 /* VariousCollectionViewPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1AF29C4BC9100C52028 /* VariousCollectionViewPatternUITests.swift */; };
 		DE2EC1B229C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1B129C4BC9100C52028 /* VariousCollectionViewPatternUITestsLaunchTests.swift */; };
-		DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = DE2EC1C829C725C000C52028 /* AlamofireImage */; };
 		DE2EC1D329C8942E00C52028 /* TypeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D229C8942E00C52028 /* TypeScanner.swift */; };
 		DE2EC1D629C8945400C52028 /* DateLabelFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1D529C8945400C52028 /* DateLabelFormatter.swift */; };
 		DE2EC1E629C89BBE00C52028 /* UIWindowScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EC1E529C89BBE00C52028 /* UIWindowScanner.swift */; };
@@ -252,7 +251,6 @@
 				DE6B2E4B2AE52F4800BB5FFE /* Entity in Frameworks */,
 				DE6B2E452AE52AA000BB5FFE /* Networking in Frameworks */,
 				DE6B2E432AE52A9C00BB5FFE /* LocalStore in Frameworks */,
-				DE2EC1C929C725C000C52028 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,7 +820,6 @@
 			);
 			name = VariousCollectionViewPattern;
 			packageProductDependencies = (
-				DE2EC1C829C725C000C52028 /* AlamofireImage */,
 				DE6B2E422AE52A9C00BB5FFE /* LocalStore */,
 				DE6B2E442AE52AA000BB5FFE /* Networking */,
 				DE6B2E4A2AE52F4800BB5FFE /* Entity */,
@@ -902,8 +899,6 @@
 			);
 			mainGroup = DE2EC18229C4BC8F00C52028;
 			packageReferences = (
-				DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
-				DE3E7C442BA38B0E00F72294 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -1387,31 +1382,7 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		DE3E7C442BA38B0E00F72294 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.9.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		DE2EC1C829C725C000C52028 /* AlamofireImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE2EC1C729C725C000C52028 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
-			productName = AlamofireImage;
-		};
 		DE6B2E422AE52A9C00BB5FFE /* LocalStore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LocalStore;
