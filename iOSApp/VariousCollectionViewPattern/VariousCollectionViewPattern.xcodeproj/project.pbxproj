@@ -899,6 +899,9 @@
 			);
 			mainGroup = DE2EC18229C4BC8F00C52028;
 			packageReferences = (
+				DEF3BBC12CD60EB0007B2D9A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				DEF3BBC22CD60ECC007B2D9A /* XCRemoteSwiftPackageReference "swift-testing" */,
+				DEF3BBC32CD611E7007B2D9A /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
 			);
 			productRefGroup = DE2EC18C29C4BC8F00C52028 /* Products */;
 			projectDirPath = "";
@@ -1381,6 +1384,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEF3BBC12CD60EB0007B2D9A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+		DEF3BBC22CD60ECC007B2D9A /* XCRemoteSwiftPackageReference "swift-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.2;
+			};
+		};
+		DEF3BBC32CD611E7007B2D9A /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-async-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		DE6B2E422AE52A9C00BB5FFE /* LocalStore */ = {
